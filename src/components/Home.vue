@@ -11,7 +11,7 @@
       </h1>
 
       <div :class="smAndDown ? 'pt-2' : ''">
-        <v-btn size="x-small" class="bg-terciary">
+        <v-btn size="x-small" class="bg-terciary rounded">
           <h6 class="font-weight-regular">QUERO CONHECER</h6>
         </v-btn>
 
@@ -64,7 +64,7 @@
     </div>
   </div>
 
-  <div class="d-flex" align="center" :class="smAndDown ? 'pb-8' : ''">
+  <div class="d-flex" align="center" :class="smAndDown ? 'pb-4' : ''">
 
     <div :class="smAndDown ? 'w-50 pt-2 px-4' : ''">
       <h5 class="text-terciary">Assistência Viagem</h5>
@@ -137,13 +137,13 @@
     </div>
   </div>
 
-  <div align="center">
-    <h5 class="fontinter text-terciary font-weight-bold">Descontos na Rede de Parceiros</h5>
+  <div align="center" :class="smAndDown ? 'pt-5 pb-4' : ''">
+    <h4 class="fontinter text-terciary font-weight-bold">Descontos na Rede de Parceiros</h4>
   </div>
 
   <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-4 px-1' : ''">
 
-    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2' : ''">
+    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
 
       <h6 class="font-weight-light">VAI DE PROMO
         <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Passagens Aéreas</p>
@@ -173,7 +173,7 @@
       <v-img src="/public/gipssy.png" :class="smAndDown ? 'w-75' : ''" />
     </div>
 
-    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2' : ''">
+    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
 
       <h6 class="font-weight-light">GIPSYY
         <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Passagens Rodoviárias</p>
@@ -199,7 +199,7 @@
 
   <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-3 px-1' : ''">
 
-    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2' : ''">
+    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
 
       <h6 class="font-weight-light">SEGUROS PROMO
         <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Passagens Aéreas</p>
@@ -233,7 +233,7 @@
       <v-img src="/public/rentcars.png" :class="smAndDown ? 'w-75 mt-2' : ''" />
     </div>
 
-    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2' : ''">
+    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
 
       <h6 class="font-weight-light">RENTCARS
         <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Aluguel de Carros</p>
@@ -255,7 +255,7 @@
 
   <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-3 px-1' : ''">
 
-    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2' : ''">
+    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
 
       <h6 class="font-weight-light">THE IFRIEND
         <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Guias, experiências turísticas e tickets</p>
@@ -291,7 +291,7 @@
       <v-img src="/public/airalo.png" :class="smAndDown ? 'w-75 mt-2' : ''" />
     </div>
 
-    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2' : ''">
+    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
 
       <h6 class="font-weight-light">AIRALO
         <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">eSIM (Chip virtual)</p>
@@ -319,7 +319,7 @@
 
   <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-3 px-1' : ''">
 
-    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2' : ''">
+    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
 
       <h6 class="font-weight-light">AMERICA CHIP
         <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Chip internacional</p>
@@ -352,7 +352,7 @@
       <v-img src="/public/getmalas.png" :class="smAndDown ? 'w-75' : ''" />
     </div>
 
-    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2' : ''">
+    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
 
       <h6 class="font-weight-light">GETMALAS
         <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Aluguel de malas de viagem</p>
@@ -369,6 +369,45 @@
         </v-btn>
       </div>
     </div>
+  </div>
+
+
+  <div class="bg-secondary d-flex" :class="smAndDown ? 'mt-3' : ''">
+
+    <div :class="smAndDown ? 'pl-3 pt-5 w-50' : ''">
+      <h4 class="fontinter text-quartiary font-weight-bold">Viva o extraordinário!</h4>
+      <p class="fontinter text-white font-weight-bold" style="font-size: 8px;">Explore nossos hotéis e resorts de classe mundial
+        e transforme suas férias em momentos inesquecíveis.</p>
+
+      <div>
+        <v-btn size="x-small" class="bg-terciary mt-3 rounded">
+          <h6>VER HOTÉIS E RESORTS</h6>
+        </v-btn>
+      </div>
+    </div>
+
+    <div align="center" :class="smAndDown ? 'w-50' : ''">
+      <v-img src="/public/imgaviao.png" :class="smAndDown ? 'w-75 mt-5' : ''" />
+    </div>
+  </div>
+
+  <div class="bg-quartiary d-flex" :class="smAndDown ? 'pb-8' : ''">
+
+    <div :class="smAndDown ? 'w-50 pt-5 pl-3' : ''">
+      <h5 class="fontinter font-weight-bold">Somos uma plataforma que traz uma <span class="text-terciary">nova forma de economizar </span> em suas hospedagens.</h5>
+      <p class="fontinter font-weight-regular mt-2" style="font-size: 8px;">Escolha um dos nossos planos e tenha acesso a mais
+        de <span class="text-terciary font-weight-bold">1.5 milhão de hotéis </span> ao redor do mundo com as melhores ofertas e tarifas.</p>
+    </div>
+
+    <div align="right" :class="smAndDown ? 'w-50' : ''">
+      <v-img src="/public/fotomala.png" :class="smAndDown ? 'w-75 mt-10' : ''" />
+    </div>
+  </div>
+
+  <div align="center" class="bg-secondary">
+    <v-footer class="bg-secondary" :class="smAndDown ? 'w-25 py-3' : ''">
+      <v-img src="/public/logobranca.png" :class="smAndDown ? 'w-25 ' : ''" />
+    </v-footer>
   </div>
 </template>
 
