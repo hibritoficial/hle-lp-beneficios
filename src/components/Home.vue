@@ -15,8 +15,9 @@
           <h6 class="font-weight-regular">QUERO CONHECER</h6>
         </v-btn>
 
-        <p class="text-quintenary pt-1" style="font-size: 6px;">Ainda tem dúvidas? <a href="https://viajehole.com.br/"
-            target="_blank">Clique aqui</a> e fale com um de nossos atendentes pelo WhatsApp.</p>
+        <p class="text-quintenary" :class="smAndDown ? 'pt-1 px-4' : ''" style="font-size: 6px;">Ainda tem dúvidas? <a
+            href="https://viajehole.com.br/" target="_blank">Clique aqui</a> e fale com um de nossos atendentes pelo
+          WhatsApp.</p>
       </div>
     </div>
   </div>
@@ -63,7 +64,7 @@
     </div>
   </div>
 
-  <div class="d-flex" align="center" :class="smAndDown ? 'pb-16' : ''">
+  <div class="d-flex" align="center" :class="smAndDown ? 'pb-8' : ''">
 
     <div :class="smAndDown ? 'w-50 pt-2 px-4' : ''">
       <h5 class="text-terciary">Assistência Viagem</h5>
@@ -88,14 +89,52 @@
       </div>
 
       <div>
-        <v-btn size="x-small" class="bg-terciary rounded-lg mt-2"><h6>Como utilizar</h6></v-btn>
+        <v-btn size="x-small" class="bg-terciary rounded-lg mt-2">
+          <h6>Como utilizar</h6>
+        </v-btn>
       </div>
     </div>
 
-
-
     <div :class="smAndDown ? 'w-50' : ''" class="bg-secondary">
       <v-img cover src="/public/telemkt1.png" :class="smAndDown ? 'w-100 pb-5' : ''" />
+    </div>
+  </div>
+
+  <div class="d-flex" align="center" :class="smAndDown ? 'pb-16' : ''">
+
+    <div :class="smAndDown ? 'w-50' : ''" class="bg-terciary">
+      <v-img cover src="/public/telemkt2.png" :class="smAndDown ? 'w-100 pb-10' : ''" />
+    </div>
+
+    <div :class="smAndDown ? 'w-50' : ''">
+
+      <div :class="smAndDown ? 'w-75 pt-2' : ''">
+        <h5 class="text-terciary">Telemedicina</h5>
+
+        <h6 style="font-size: 7px;" :class="smAndDown ? 'pt-1' : ''">O titular dos planos Individual e Família tem direito
+          a até 4 (quatro) consultas virtuais com médico clínico geral, em menos de 30 segundos, de qualquer lugar do
+          mundo e a qualquer momento por meio da plataforma web e mobile. O objetivo é atender o cliente em situações que
+          exigem atendimento médico de forma imediata.
+        </h6>
+
+        <div align="left">
+          <ul style="font-size: 6px;" :class="smAndDown ? 'pt-2 pl-5' : ''">
+            <li>Plano individual;</li>
+            <li>Sem período de carência;</li>
+            <li>Sem coparticipação;</li>
+            <li>Limite de 4 (quatro) consultas por ano;</li>
+            <li>Estão excluídos pacientes de urgência e emergência, síndrome do abdômen agudo, portadores de doenças
+              cardiovasculares ou neurológicas e pacientes pediátricos menores de 2 anos;</li>
+          </ul>
+        </div>
+
+        <div>
+          <v-btn size="x-small" class="bg-terciary rounded-lg mt-2">
+            <h6>Como utilizar</h6>
+          </v-btn>
+        </div>
+      </div>
+
     </div>
 
 
