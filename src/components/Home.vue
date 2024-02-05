@@ -6,24 +6,40 @@
     </div>
 
     <div align="center" :class="smAndDown ? 'w-50 pt-16' : 'w-50'">
-      <h1 class="fontinter font-weight-bold text-black" style="font-size: 9px; font-family:">Viaje com economia, segurança
-        <p /> <span class="text-secondary" style="font-size: 10px;">e ainda mais beneficios</span>!
+      <h1 class="fontinter text-senario text-sm-h5" style="font-size: 8px; font-weight: 900;">Viaje com economia,
+        segurança
+        <p /> <span class="text-secondary text-sm-h5" style="font-size: 10px; font-weight: 900;">e ainda mais
+          beneficios</span>!
       </h1>
 
-      <div :class="smAndDown ? 'pt-2' : ''">
-        <v-btn size="x-small" class="bg-terciary rounded">
-          <h6 class="font-weight-regular">QUERO CONHECER</h6>
+      <div>
+        <v-btn size="x-small" class="bg-terciary rounded d-sm-none mt-2 mb-1">
+          <h6 class="font-weight-light">QUERO CONHECER</h6>
         </v-btn>
 
-        <p class="text-quintenary" :class="smAndDown ? 'pt-1 px-4' : ''" style="font-size: 6px;">Ainda tem dúvidas? <a
-            href="https://viajehole.com.br/" target="_blank">Clique aqui</a> e fale com um de nossos atendentes pelo
+
+        <v-btn size="large" class="bg-terciary rounded d-sm-block d-none" :class="smAndDown ? 'mt-8 mb-4 w-75' : ''">
+          <h5 class="font-weight-light">QUERO CONHECER</h5>
+        </v-btn>
+
+
+        <p class="text-quintenary d-sm-none" :class="smAndDown ? 'pt-1 px-4' : ''" style="font-size: 6px;">Ainda tem
+          dúvidas? <a href="https://viajehole.com.br/" target="_blank">Clique aqui</a> e fale com um de nossos atendentes
+          pelo
           WhatsApp.</p>
+
+        <p class="text-quintenary d-sm-block d-none" :class="smAndDown ? 'pt-1 px-10' : ''" style="font-size: 10px;">Ainda
+          tem dúvidas? <a href="https://viajehole.com.br/" target="_blank">Clique aqui</a> e fale com um de nossos
+          atendentes pelo
+          WhatsApp.</p>
+
+
       </div>
     </div>
   </div>
 
   <div :class="smAndDown ? 'pt-16 pb-16' : ''" class="bg-quartiary" align="center">
-    <h5 class="fontinter text-terciary font-weight-bold">Aproveite Beneficios
+    <h5 class="fontinter text-terciary font-weight-bold text-sm-h5">Aproveite Beneficios
       <p /> Extras Exclusivos
     </h5>
 
@@ -31,10 +47,16 @@
 
       <div :class="smAndDown ? 'w-50 pa-1 pb-5' : ''" class="bg-terciary rounded-lg">
         <v-img src="/public/assistencia.png" :class="smAndDown ? 'w-75' : ''" />
-        <h6 style="font-size: 10px;" class="font-weight-light">Assistência Viagem</h6>
+        <h6 style="font-size: 10px;" class="font-weight-light text-sm-h6">Assistência Viagem</h6>
 
         <div>
-          <v-btn class="bg-transparent mt-6 rounded-xl" style="border-width: 1px; border-color: white;" size="x-small">
+          <v-btn class="bg-transparent mt-6 rounded-xl d-sm-none" style="border-width: 1px; border-color: white;"
+            size="x-small">
+            <h6 class="font-weight-light">Saiba Mais</h6>
+          </v-btn>
+
+          <v-btn class="bg-transparent mt-11 rounded-xl d-sm-block d-none" style="border-width: 1px; border-color: white;"
+            size="large">
             <h6 class="font-weight-light">Saiba Mais</h6>
           </v-btn>
         </div>
@@ -42,10 +64,16 @@
 
       <div :class="smAndDown ? 'w-50 pa-1 mx-2 pb-5' : ''" class="bg-terciary rounded-lg">
         <v-img src="/public/telemedicina.png" :class="smAndDown ? 'w-75' : ''" />
-        <h6 style="font-size: 10px;" class="font-weight-light">Telemedicina</h6>
+        <h6 style="font-size: 10px;" class="font-weight-light text-sm-h6">Telemedicina</h6>
 
         <div>
-          <v-btn class="bg-transparent mt-6 rounded-xl" style="border-width: 1px; border-color: white;" size="x-small">
+          <v-btn class="bg-transparent mt-6 rounded-xl d-sm-none" style="border-width: 1px; border-color: white;"
+            size="x-small">
+            <h6 class="font-weight-light">Saiba Mais</h6>
+          </v-btn>
+
+          <v-btn class="bg-transparent mt-11 rounded-xl d-sm-block d-none" style="border-width: 1px; border-color: white;"
+            size="large">
             <h6 class="font-weight-light">Saiba Mais</h6>
           </v-btn>
         </div>
@@ -53,10 +81,17 @@
 
       <div :class="smAndDown ? 'w-50 pa-1 pb-5' : ''" class="bg-terciary rounded-lg">
         <v-img src="/public/descontos.png" :class="smAndDown ? 'w-75' : ''" />
-        <h6 style="font-size: 9px;">Descontos <span class="font-weight-light">na</span> Rede de Parceiros</h6>
+        <h6 class="text-sm-h6" style="font-size: 9px;">Descontos <span class="font-weight-light">na</span> Rede de
+          Parceiros</h6>
 
         <div>
-          <v-btn class="bg-transparent mt-3 rounded-xl" style="border-width: 1px; border-color: white;" size="x-small">
+          <v-btn class="bg-transparent mt-3 rounded-xl d-sm-none" style="border-width: 1px; border-color: white;"
+            size="x-small">
+            <h6 class="font-weight-light">Saiba Mais</h6>
+          </v-btn>
+
+          <v-btn class="bg-transparent mt-3 rounded-xl d-sm-block d-none" style="border-width: 1px; border-color: white;"
+            size="large">
             <h6 class="font-weight-light">Saiba Mais</h6>
           </v-btn>
         </div>
@@ -67,15 +102,36 @@
   <div class="d-flex" align="center" :class="smAndDown ? 'pb-4' : ''">
 
     <div :class="smAndDown ? 'w-50 pt-2 px-4' : ''">
-      <h5 class="text-terciary">Assistência Viagem</h5>
+      <h5 class="text-terciary d-sm-none">Assistência Viagem</h5>
+      <h3 class="text-terciary d-sm-block d-none" :class="smAndDown ? 'pt-10' : ''">Assistência Viagem</h3>
 
-      <h6 style="font-size: 7px;" :class="smAndDown ? 'pt-1' : ''">Fique tranquilo em suas viagens nacionais com o serviço
+
+      <h6 class="d-sm-none" style="font-size: 7px;" :class="smAndDown ? 'pt-1' : ''">Fique tranquilo em suas viagens
+        nacionais com o serviço
+        de auxílio em situaçoes de
+        emergências, tais como:
+      </h6>
+
+      <h6 class="d-sm-block d-none" style="font-size: 11px;" :class="smAndDown ? 'pt-1 px-3' : ''">Fique tranquilo em suas
+        viagens nacionais com o serviço
         de auxílio em situaçoes de
         emergências, tais como:
       </h6>
 
       <div align="left">
-        <ul style="font-size: 6px;" :class="smAndDown ? 'px-5 ml-5 pt-2' : ''">
+        <ul class="d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'px-5 ml-5 pt-2' : ''">
+          <li>Extravio de bagagens;</li>
+          <li>Despesas médicas hospitalares, odontológicas e farmacêuticas;</li>
+          <li>Regresso antecipado;</li>
+          <li>Regresso sanitário;</li>
+          <li>Traslado de corpo;</li>
+          <li>Traslado médico;</li>
+          <li>Atraso de voo a partir de 12h;</li>
+          <li>Invalidez total e parcial por acidente;</li>
+          <li>Morte acidental em viagem.</li>
+        </ul>
+
+        <ul class="d-sm-block d-none" style="font-size: 12px;" :class="smAndDown ? 'pr-8 pt-5 pl-14 ml-16' : ''">
           <li>Extravio de bagagens;</li>
           <li>Despesas médicas hospitalares, odontológicas e farmacêuticas;</li>
           <li>Regresso antecipado;</li>
@@ -89,7 +145,11 @@
       </div>
 
       <div>
-        <v-btn size="x-small" class="bg-terciary rounded-lg mt-2">
+        <v-btn size="x-small" class="bg-terciary rounded-lg mt-2 d-sm-none">
+          <h6>Como utilizar</h6>
+        </v-btn>
+
+        <v-btn size="large" class="bg-terciary rounded-lg mt-2 d-sm-block d-none" :class="smAndDown ? 'w-50 mt-8' : ''">
           <h6>Como utilizar</h6>
         </v-btn>
       </div>
@@ -109,16 +169,33 @@
     <div :class="smAndDown ? 'w-50' : ''">
 
       <div :class="smAndDown ? 'w-75 pt-2' : ''">
-        <h5 class="text-terciary">Telemedicina</h5>
+        <h5 class="text-terciary d-sm-none">Telemedicina</h5>
+        <h3 class="text-terciary d-sm-block d-none" :class="smAndDown ? 'pt-10' : ''">Telemedicina</h3>
 
-        <h6 style="font-size: 7px;" :class="smAndDown ? 'pt-1' : ''">O titular dos planos Individual e Família tem direito
+        <h6 class="d-sm-none" style="font-size: 7px;" :class="smAndDown ? 'pt-1' : ''">O titular dos planos Individual e Família tem direito
+          a até 4 (quatro) consultas virtuais com médico clínico geral, em menos de 30 segundos, de qualquer lugar do
+          mundo e a qualquer momento por meio da plataforma web e mobile. O objetivo é atender o cliente em situações que
+          exigem atendimento médico de forma imediata.
+        </h6>
+
+        <h6 class="d-sm-block d-none" style="font-size: 10px;" :class="smAndDown ? 'pt-1 px-3' : ''">O titular dos planos
+          Individual e Família tem direito
           a até 4 (quatro) consultas virtuais com médico clínico geral, em menos de 30 segundos, de qualquer lugar do
           mundo e a qualquer momento por meio da plataforma web e mobile. O objetivo é atender o cliente em situações que
           exigem atendimento médico de forma imediata.
         </h6>
 
         <div align="left">
-          <ul style="font-size: 6px;" :class="smAndDown ? 'pt-2 pl-5' : ''">
+          <ul class="d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pl-5' : ''">
+            <li>Plano individual;</li>
+            <li>Sem período de carência;</li>
+            <li>Sem coparticipação;</li>
+            <li>Limite de 4 (quatro) consultas por ano;</li>
+            <li>Estão excluídos pacientes de urgência e emergência, síndrome do abdômen agudo, portadores de doenças
+              cardiovasculares ou neurológicas e pacientes pediátricos menores de 2 anos;</li>
+          </ul>
+
+          <ul class="d-sm-block d-none" style="font-size: 11px;" :class="smAndDown ? 'pr-6 pt-3 pl-7 ml-16' : ''">
             <li>Plano individual;</li>
             <li>Sem período de carência;</li>
             <li>Sem coparticipação;</li>
@@ -129,7 +206,11 @@
         </div>
 
         <div>
-          <v-btn size="x-small" class="bg-terciary rounded-lg mt-2">
+          <v-btn size="x-small" class="bg-terciary rounded-lg mt-2 d-sm-none">
+            <h6>Como utilizar</h6>
+          </v-btn>
+
+          <v-btn size="large" class="bg-terciary rounded-lg mt-2 d-sm-block d-none" :class="smAndDown ? 'w-50 mt-4' : ''">
             <h6>Como utilizar</h6>
           </v-btn>
         </div>
@@ -138,20 +219,26 @@
   </div>
 
   <div align="center" :class="smAndDown ? 'pt-5 pb-4' : ''">
-    <h4 class="fontinter text-terciary font-weight-bold">Descontos na Rede de Parceiros</h4>
+    <h4 class="fontinter text-terciary font-weight-bold d-sm-none">Descontos na Rede de Parceiros</h4>
+    <h2 class="text-terciary d-sm-block d-none" :class="smAndDown ? 'pt-10 pb-10' : ''">Descontos na Rede de Parceiros</h2>
   </div>
 
   <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-4 px-1' : ''">
 
-    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
+    <div class="degrade1 rounded-lg text-white" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
 
-      <h6 class="font-weight-light">VAI DE PROMO
+      <h6 class="font-weight-light text-sm-h6">VAI DE PROMO
         <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Passagens Aéreas</p>
       </h6>
 
-      <p class="font-weight-light" style="font-size: 6px;" :class="smAndDown ? 'pt-2' : ''">Garanta sua passagem aérea com
+      <p class="font-weight-light d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-2' : ''">Garanta sua passagem aérea com
         até <span class="font-weight-bold">40% de desconto</span> para
         destinos nacionais e internacionais.</p>
+
+        <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-2' : ''">Garanta sua passagem aérea com
+          até <span class="font-weight-bold">40% de desconto</span> para
+          destinos nacionais e internacionais.</p>
+  
 
       <div align="right">
         <v-btn size="x-small" class="bg-transparent mr-1 rounded-pill mt-2 mb-1"
@@ -173,17 +260,25 @@
       <v-img src="/public/gipssy.png" :class="smAndDown ? 'w-75' : ''" />
     </div>
 
-    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
+    <div class="degrade2 rounded-lg text-white" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
 
-      <h6 class="font-weight-light">GIPSYY
+      <h6 class="font-weight-light text-sm-h6">GIPSYY
         <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Passagens Rodoviárias</p>
       </h6>
 
-      <p class="font-weight-light" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-2' : ''">Compre suas passagens
+      <p class="font-weight-light d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-2' : ''">Compre suas passagens
         rodoviárias online para todo o Brasil, com os melhores preços, e ainda ganhe mais <span
           class="font-weight-bold">10% de desconto</span> com o nosso
         cupom.</p>
-      <p class="font-weight-bold" style="font-size: 6px;" :class="smAndDown ? 'pt-1' : ''">Use o cupom: HOLE10</p>
+
+        <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-2 pr-2' : ''">Compre suas passagens
+          rodoviárias online para todo o Brasil, com os melhores preços, e ainda ganhe mais <span
+            class="font-weight-bold">10% de desconto</span> com o nosso
+          cupom.</p>
+
+        
+      <p class="font-weight-bold d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-1' : ''">Use o cupom: HOLE10</p>
+      <p class="font-weight-bold d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-1' : ''">Use o cupom: HOLE10</p>
 
 
 
@@ -199,18 +294,24 @@
 
   <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-3 px-1' : ''">
 
-    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
+    <div class="degrade1 rounded-lg text-white" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
 
-      <h6 class="font-weight-light">SEGUROS PROMO
+      <h6 class="font-weight-light text-sm-h6">SEGUROS PROMO
         <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Passagens Aéreas</p>
       </h6>
 
-      <p class="font-weight-light" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-5' : ''">Compare e encontre o
+      <p class="font-weight-light d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-5' : ''">Compare e encontre o
         melhor
         seguro viagem nacional ou internacional e ganhe
         15% de desconto na compra online.</p>
 
-      <p class="font-weight-bold" style="font-size: 6px;" :class="smAndDown ? 'pt-1' : ''">Use o cupom: HOLE15</p>
+        <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-2 pr-5' : ''">Compare e encontre o
+          melhor
+          seguro viagem nacional ou internacional e ganhe
+          15% de desconto na compra online.</p>
+
+      <p class="font-weight-bold d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-1' : ''">Use o cupom: HOLE15</p>
+      <p class="font-weight-bold d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-1' : ''">Use o cupom: HOLE15</p>
 
 
       <div align="right">
@@ -233,15 +334,19 @@
       <v-img src="/public/rentcars.png" :class="smAndDown ? 'w-75 mt-2' : ''" />
     </div>
 
-    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
+    <div class="degrade2 rounded-lg text-white" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
 
-      <h6 class="font-weight-light">RENTCARS
+      <h6 class="font-weight-light text-sm-h6">RENTCARS
         <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Aluguel de Carros</p>
       </h6>
 
-      <p class="font-weight-light" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-2' : ''">Com a Rentcars, você
+      <p class="font-weight-light d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-2' : ''">Com a Rentcars, você
         aluga carros com os melhores preços em mais de 200 locadoras de veículos tanto em destinos nacionais como
         internacionais.</p>
+
+        <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-2 pr-2' : ''">Com a Rentcars, você
+          aluga carros com os melhores preços em mais de 200 locadoras de veículos tanto em destinos nacionais como
+          internacionais.</p>
 
       <div align="right">
         <v-btn size="x-small" class="bg-transparent mr-1 rounded-pill mt-2 mb-1"
@@ -255,20 +360,28 @@
 
   <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-3 px-1' : ''">
 
-    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
+    <div class="degrade1 rounded-lg text-white" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
 
-      <h6 class="font-weight-light">THE IFRIEND
+      <h6 class="font-weight-light text-sm-h6">THE IFRIEND
         <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Guias, experiências turísticas e tickets</p>
       </h6>
 
-      <p class="font-weight-light" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-5' : ''">Com a Holé, você terá
+      <p class="font-weight-light d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-5' : ''">Com a Holé, você terá
         <span class="font-weight-bold"> 8%
           de desconto</span> para contratar guias locais experientes, nos principais destinos turísticos pelo mundo, que
         falam
         português e podem mostrar o melhor de cada local visitado.
       </p>
 
-      <p class="font-weight-bold" style="font-size: 6px;" :class="smAndDown ? 'pt-1' : ''">Use o cupom: HOLE8</p>
+      <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-2 pr-5' : ''">Com a Holé, você terá
+        <span class="font-weight-bold"> 8%
+          de desconto</span> para contratar guias locais experientes, nos principais destinos turísticos pelo mundo, que
+        falam
+        português e podem mostrar o melhor de cada local visitado.
+      </p>
+
+      <p class="font-weight-bold d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-1' : ''">Use o cupom: HOLE8</p>
+      <p class="font-weight-bold d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-1' : ''">Use o cupom: HOLE8</p>
 
 
       <div align="right">
@@ -291,13 +404,13 @@
       <v-img src="/public/airalo.png" :class="smAndDown ? 'w-75 mt-2' : ''" />
     </div>
 
-    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
+    <div class="degrade2 rounded-lg text-white" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
 
-      <h6 class="font-weight-light">AIRALO
+      <h6 class="font-weight-light text-sm-h6">AIRALO
         <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">eSIM (Chip virtual)</p>
       </h6>
 
-      <p class="font-weight-light" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pl-3' : ''">
+      <p class="font-weight-light d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pl-3' : ''">
       <ul>
         <li>Desconto de 15%</li>
         <li>Usuários novos e existentes</li>
@@ -305,7 +418,16 @@
       </ul>
       </p>
 
-      <p class="font-weight-bold" style="font-size: 6px;" :class="smAndDown ? 'pt-1 pl-1' : ''">Use o cupom: HOLE15</p>
+      <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-2 pl-3' : ''">
+        <ul>
+          <li>Desconto de 15%</li>
+          <li>Usuários novos e existentes</li>
+          <li>Sem compra mínima</li>
+        </ul>
+        </p>
+
+      <p class="font-weight-bold d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-1 pl-1' : ''">Use o cupom: HOLE15</p>
+      <p class="font-weight-bold d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-1 pl-1' : ''">Use o cupom: HOLE15</p>
 
       <div align="right">
         <v-btn size="x-small" class="bg-transparent mr-1 rounded-pill mt-2 mb-1"
@@ -319,18 +441,24 @@
 
   <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-3 px-1' : ''">
 
-    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
+    <div class="degrade1 rounded-lg text-white" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
 
-      <h6 class="font-weight-light">AMERICA CHIP
+      <h6 class="font-weight-light text-sm-h6">AMERICA CHIP
         <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Chip internacional</p>
       </h6>
 
-      <p class="font-weight-light" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-5' : ''">A America Chip oferece o
+      <p class="font-weight-light d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-5' : ''">A America Chip oferece o
         melhor chip internacional do mercado com cobertura para mais de 200 países. Viaje com a liberdade e segurança de
-        poder se comunicar mesmo estando no exterior. Aproveite 10% de desconto na compra do seu chip online e receba-o em
+        poder se comunicar mesmo estando no exterior. Aproveite <span class="font-weight-bold">10% de desconto </span> na compra do seu chip online e receba-o em
         sua casa.</p>
 
-      <p class="font-weight-bold" style="font-size: 6px;" :class="smAndDown ? 'pt-1' : ''">Use o cupom: AMERICA10</p>
+        <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-2 pr-5' : ''">A America Chip oferece o
+          melhor chip internacional do mercado com cobertura para mais de 200 países. Viaje com a liberdade e segurança de
+          poder se comunicar mesmo estando no exterior. Aproveite <span class="font-weight-bold">10% de desconto </span> na compra do seu chip online e receba-o em
+          sua casa.</p>
+
+      <p class="font-weight-bold d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-1' : ''">Use o cupom: AMERICA10</p>
+      <p class="font-weight-bold d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-1' : ''">Use o cupom: AMERICA10</p>
 
       <div align="right">
         <v-btn size="x-small" class="bg-transparent mr-1 rounded-pill mt-2 mb-1"
@@ -352,13 +480,17 @@
       <v-img src="/public/getmalas.png" :class="smAndDown ? 'w-75' : ''" />
     </div>
 
-    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
+    <div class="degrade2 rounded-lg text-white" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : ''">
 
-      <h6 class="font-weight-light">GETMALAS
+      <h6 class="font-weight-light text-sm-h6">GETMALAS
         <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Aluguel de malas de viagem</p>
       </h6>
 
-      <p class="font-weight-light" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-2' : ''">
+      <p class="font-weight-light d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-2' : ''">
+        Viaje a lazer ou a trabalho com malas premium de forma simples, segura, econômica e descomplicada.
+      </p>
+
+      <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-2 pr-2' : ''">
         Viaje a lazer ou a trabalho com malas premium de forma simples, segura, econômica e descomplicada.
       </p>
 
@@ -375,13 +507,24 @@
   <div class="bg-secondary d-flex" :class="smAndDown ? 'mt-3' : ''">
 
     <div :class="smAndDown ? 'pl-3 pt-5 w-50' : ''">
-      <h4 class="fontinter text-quartiary font-weight-bold">Viva o extraordinário!</h4>
-      <p class="fontinter text-white font-weight-bold" style="font-size: 8px;">Explore nossos hotéis e resorts de classe mundial
+      <h4 class="fontinter text-quartiary font-weight-bold d-sm-none">Viva o extraordinário!</h4>
+      <h4 class="fontinter text-quartiary font-weight-bold d-sm-block d-none text-sm-h4" :class="smAndDown ? 'mt-10 ml-2' : ''">Viva o extraordinário!</h4>
+
+      <p class="fontinter text-white font-weight-bold d-sm-none" style="font-size: 8px;">Explore nossos hotéis e resorts de classe
+        mundial
         e transforme suas férias em momentos inesquecíveis.</p>
 
+        <p class="fontinter text-white font-weight-bold d-sm-block d-none" style="font-size: 14px;" :class="smAndDown ? 'ml-2' : ''">Explore nossos hotéis e resorts de classe
+          mundial
+          e transforme suas férias em momentos inesquecíveis.</p>
+
       <div>
-        <v-btn size="x-small" class="bg-terciary mt-3 rounded">
-          <h6>VER HOTÉIS E RESORTS</h6>
+        <v-btn size="x-small" class="bg-terciary mt-3 rounded d-sm-none">
+          <h6 class="font-weight-light">VER HOTÉIS E RESORTS</h6>
+        </v-btn>
+
+        <v-btn size="large" class="bg-terciary mt-3 rounded d-sm-block d-none" :class="smAndDown ? 'mt-10 ml-2' : ''">
+          <h5 class="font-weight-light">VER HOTÉIS E RESORTS</h5>
         </v-btn>
       </div>
     </div>
@@ -394,9 +537,21 @@
   <div class="bg-quartiary d-flex" :class="smAndDown ? 'pb-8' : ''">
 
     <div :class="smAndDown ? 'w-50 pt-5 pl-3' : ''">
-      <h5 class="fontinter font-weight-bold">Somos uma plataforma que traz uma <span class="text-terciary">nova forma de economizar </span> em suas hospedagens.</h5>
-      <p class="fontinter font-weight-regular mt-2" style="font-size: 8px;">Escolha um dos nossos planos e tenha acesso a mais
-        de <span class="text-terciary font-weight-bold">1.5 milhão de hotéis </span> ao redor do mundo com as melhores ofertas e tarifas.</p>
+      <h5 class="fontinter font-weight-bold text-sm-h5 d-sm-none">Somos uma plataforma que traz uma <span class="text-terciary">nova forma de
+          economizar </span> em suas hospedagens.</h5>
+
+          <h5 class="fontinter font-weight-bold text-sm-h5 d-sm-block d-none" :class="smAndDown ? 'ml-2' : ''">Somos uma plataforma que traz uma <span class="text-terciary">nova forma de
+            economizar </span> em suas hospedagens.</h5>
+
+      <p class="fontinter font-weight-regular mt-2 d-sm-none" style="font-size: 8px;">Escolha um dos nossos planos e tenha acesso a
+        mais
+        de <span class="text-terciary font-weight-bold">1.5 milhão de hotéis </span> ao redor do mundo com as melhores
+        ofertas e tarifas.</p>
+
+        <p class="fontinter font-weight-regular d-sm-block d-none" style="font-size: 12px;" :class="smAndDown ? 'pr-16 mt-4 ml-2' : ''">Escolha um dos nossos planos e tenha acesso a
+          mais
+          de <span class="text-terciary font-weight-bold">1.5 milhão de hotéis </span> ao redor do mundo com as melhores
+          ofertas e tarifas.</p>
     </div>
 
     <div align="right" :class="smAndDown ? 'w-50' : ''">
@@ -404,14 +559,29 @@
     </div>
   </div>
 
-  <div align="center" class="bg-secondary">
-    <v-footer class="bg-secondary" :class="smAndDown ? 'w-25 py-3' : ''">
-      <v-img src="/public/logobranca.png" :class="smAndDown ? 'w-25 ' : ''" />
+ 
+    <v-footer align="center"  class="bg-secondary">
+      <div align="center" :class="smAndDown ? 'w-100' : ''">
+      <v-img src="/public/logobranca.png" class="d-sm-none" width="40"/>
+      
+      <v-img src="/public/logobranca.png" class="d-sm-block d-none" width="80" :class="smAndDown ? '' : ''" />  
+    </div>
     </v-footer>
-  </div>
 </template>
 
 <style scoped>
+
+.degrade1 {
+  background: linear-gradient(to left, #ff4f00, #ffffff);
+  background-size: 300% 100%;
+  background-position: 250% 100%;
+}
+
+.degrade2 {
+  background: linear-gradient(to right, #ff4f00, #ffffff);
+  background-size: 200% 100%;
+  background-position: 200% 100%;
+}
 .fontinter {
   font-family: "Inter", sans-serif;
 }

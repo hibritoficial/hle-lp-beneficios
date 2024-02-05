@@ -1,7 +1,8 @@
 <template>
     <v-app-bar flat class="bg-primary">
         <div :class="smAndDown ? 'w-25 pl-1' : ''">
-            <v-img src="/public/logocolorida.png" />
+            <v-img class="d-sm-none" src="/public/logocolorida.png" />
+            <v-img class="d-sm-block d-none" width="100" src="/public/logocolorida.png" />
         </div>
 
         <v-app-bar-title />
