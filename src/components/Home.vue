@@ -100,7 +100,7 @@
     </div>
   </div>
 
-  <div class="d-flex" align="center" :class="smAndDown ? 'pb-16' : ''">
+  <div class="d-flex" align="center" :class="smAndDown ? 'pb-8' : ''">
 
     <div :class="smAndDown ? 'w-50' : ''" class="bg-terciary">
       <v-img cover src="/public/telemkt2.png" :class="smAndDown ? 'w-100 pb-10' : ''" />
@@ -134,10 +134,241 @@
           </v-btn>
         </div>
       </div>
+    </div>
+  </div>
 
+  <div align="center">
+    <h5 class="fontinter text-terciary font-weight-bold">Descontos na Rede de Parceiros</h5>
+  </div>
+
+  <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-4 px-1' : ''">
+
+    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2' : ''">
+
+      <h6 class="font-weight-light">VAI DE PROMO
+        <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Passagens Aéreas</p>
+      </h6>
+
+      <p class="font-weight-light" style="font-size: 6px;" :class="smAndDown ? 'pt-2' : ''">Garanta sua passagem aérea com
+        até <span class="font-weight-bold">40% de desconto</span> para
+        destinos nacionais e internacionais.</p>
+
+      <div align="right">
+        <v-btn size="x-small" class="bg-transparent mr-1 rounded-pill mt-2 mb-1"
+          style="border-width: 1px; border-color: white; font-size: 8px;">
+          <h6 class="text-white">Vai de promo <v-icon>mdi-arrow-right</v-icon></h6>
+        </v-btn>
+      </div>
     </div>
 
+    <div align="center" :class="smAndDown ? 'w-50 pt-5' : ''">
+      <v-img src="/public/vaidepromo.png" :class="smAndDown ? 'w-75' : ''" />
+    </div>
+  </div>
 
+
+  <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-3 px-1' : ''">
+
+    <div align="center" :class="smAndDown ? 'w-50 pt-5' : ''">
+      <v-img src="/public/gipssy.png" :class="smAndDown ? 'w-75' : ''" />
+    </div>
+
+    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2' : ''">
+
+      <h6 class="font-weight-light">GIPSYY
+        <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Passagens Rodoviárias</p>
+      </h6>
+
+      <p class="font-weight-light" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-2' : ''">Compre suas passagens
+        rodoviárias online para todo o Brasil, com os melhores preços, e ainda ganhe mais <span
+          class="font-weight-bold">10% de desconto</span> com o nosso
+        cupom.</p>
+      <p class="font-weight-bold" style="font-size: 6px;" :class="smAndDown ? 'pt-1' : ''">Use o cupom: HOLE10</p>
+
+
+
+      <div align="right">
+        <v-btn size="x-small" class="bg-transparent mr-1 rounded-pill mt-2 mb-1"
+          style="border-width: 1px; border-color: white; font-size: 8px;">
+          <h6 class="text-white">Gipssy <v-icon>mdi-arrow-right</v-icon></h6>
+        </v-btn>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-3 px-1' : ''">
+
+    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2' : ''">
+
+      <h6 class="font-weight-light">SEGUROS PROMO
+        <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Passagens Aéreas</p>
+      </h6>
+
+      <p class="font-weight-light" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-5' : ''">Compare e encontre o
+        melhor
+        seguro viagem nacional ou internacional e ganhe
+        15% de desconto na compra online.</p>
+
+      <p class="font-weight-bold" style="font-size: 6px;" :class="smAndDown ? 'pt-1' : ''">Use o cupom: HOLE15</p>
+
+
+      <div align="right">
+        <v-btn size="x-small" class="bg-transparent mr-1 rounded-pill mt-2 mb-1"
+          style="border-width: 1px; border-color: white; font-size: 8px;">
+          <h6 class="text-white">Seguros Promo <v-icon>mdi-arrow-right</v-icon></h6>
+        </v-btn>
+      </div>
+    </div>
+
+    <div align="center" :class="smAndDown ? 'w-50 pt-5' : ''">
+      <v-img src="/public/segurospromo.png" :class="smAndDown ? 'w-75' : ''" />
+    </div>
+  </div>
+
+
+  <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-3 px-1' : ''">
+
+    <div align="center" :class="smAndDown ? 'w-50 pt-5' : ''">
+      <v-img src="/public/rentcars.png" :class="smAndDown ? 'w-75 mt-2' : ''" />
+    </div>
+
+    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2' : ''">
+
+      <h6 class="font-weight-light">RENTCARS
+        <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Aluguel de Carros</p>
+      </h6>
+
+      <p class="font-weight-light" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-2' : ''">Com a Rentcars, você
+        aluga carros com os melhores preços em mais de 200 locadoras de veículos tanto em destinos nacionais como
+        internacionais.</p>
+
+      <div align="right">
+        <v-btn size="x-small" class="bg-transparent mr-1 rounded-pill mt-2 mb-1"
+          style="border-width: 1px; border-color: white; font-size: 8px;">
+          <h6 class="text-white">RentCars <v-icon>mdi-arrow-right</v-icon></h6>
+        </v-btn>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-3 px-1' : ''">
+
+    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2' : ''">
+
+      <h6 class="font-weight-light">THE IFRIEND
+        <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Guias, experiências turísticas e tickets</p>
+      </h6>
+
+      <p class="font-weight-light" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-5' : ''">Com a Holé, você terá
+        <span class="font-weight-bold"> 8%
+          de desconto</span> para contratar guias locais experientes, nos principais destinos turísticos pelo mundo, que
+        falam
+        português e podem mostrar o melhor de cada local visitado.
+      </p>
+
+      <p class="font-weight-bold" style="font-size: 6px;" :class="smAndDown ? 'pt-1' : ''">Use o cupom: HOLE8</p>
+
+
+      <div align="right">
+        <v-btn size="x-small" class="bg-transparent mr-1 rounded-pill mt-2 mb-1"
+          style="border-width: 1px; border-color: white; font-size: 8px;">
+          <h6 class="text-white">The Ifriend <v-icon>mdi-arrow-right</v-icon></h6>
+        </v-btn>
+      </div>
+    </div>
+
+    <div align="center" :class="smAndDown ? 'w-50 pt-5' : ''">
+      <v-img src="/public/ifriend.png" :class="smAndDown ? 'w-75 mt-4' : ''" />
+    </div>
+  </div>
+
+
+  <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-3 px-1' : ''">
+
+    <div align="center" :class="smAndDown ? 'w-50 pt-5' : ''">
+      <v-img src="/public/airalo.png" :class="smAndDown ? 'w-75 mt-2' : ''" />
+    </div>
+
+    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2' : ''">
+
+      <h6 class="font-weight-light">AIRALO
+        <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">eSIM (Chip virtual)</p>
+      </h6>
+
+      <p class="font-weight-light" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pl-3' : ''">
+      <ul>
+        <li>Desconto de 15%</li>
+        <li>Usuários novos e existentes</li>
+        <li>Sem compra mínima</li>
+      </ul>
+      </p>
+
+      <p class="font-weight-bold" style="font-size: 6px;" :class="smAndDown ? 'pt-1 pl-1' : ''">Use o cupom: HOLE15</p>
+
+      <div align="right">
+        <v-btn size="x-small" class="bg-transparent mr-1 rounded-pill mt-2 mb-1"
+          style="border-width: 1px; border-color: white; font-size: 8px;">
+          <h6 class="text-white">Airalo <v-icon>mdi-arrow-right</v-icon></h6>
+        </v-btn>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-3 px-1' : ''">
+
+    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2' : ''">
+
+      <h6 class="font-weight-light">AMERICA CHIP
+        <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Chip internacional</p>
+      </h6>
+
+      <p class="font-weight-light" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-5' : ''">A America Chip oferece o
+        melhor chip internacional do mercado com cobertura para mais de 200 países. Viaje com a liberdade e segurança de
+        poder se comunicar mesmo estando no exterior. Aproveite 10% de desconto na compra do seu chip online e receba-o em
+        sua casa.</p>
+
+      <p class="font-weight-bold" style="font-size: 6px;" :class="smAndDown ? 'pt-1' : ''">Use o cupom: AMERICA10</p>
+
+      <div align="right">
+        <v-btn size="x-small" class="bg-transparent mr-1 rounded-pill mt-2 mb-1"
+          style="border-width: 1px; border-color: white; font-size: 8px;">
+          <h6 class="text-white">America Chip <v-icon>mdi-arrow-right</v-icon></h6>
+        </v-btn>
+      </div>
+    </div>
+
+    <div align="center" :class="smAndDown ? 'w-50 pt-5' : ''">
+      <v-img src="/public/americachip.png" :class="smAndDown ? 'w-75 mt-6' : ''" />
+    </div>
+  </div>
+
+
+  <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-3 px-1' : ''">
+
+    <div align="center" :class="smAndDown ? 'w-50 pt-5' : ''">
+      <v-img src="/public/getmalas.png" :class="smAndDown ? 'w-75' : ''" />
+    </div>
+
+    <div class="bg-terciary rounded-lg" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2' : ''">
+
+      <h6 class="font-weight-light">GETMALAS
+        <p class="font-weight-bold" style="font-size: 8px; line-height: 7px;">Aluguel de malas de viagem</p>
+      </h6>
+
+      <p class="font-weight-light" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-2' : ''">
+        Viaje a lazer ou a trabalho com malas premium de forma simples, segura, econômica e descomplicada.
+      </p>
+
+      <div align="right">
+        <v-btn size="x-small" class="bg-transparent mr-1 rounded-pill mt-2 mb-1"
+          style="border-width: 1px; border-color: white; font-size: 8px;">
+          <h6 class="text-white">GetMalas <v-icon>mdi-arrow-right</v-icon></h6>
+        </v-btn>
+      </div>
+    </div>
   </div>
 </template>
 
