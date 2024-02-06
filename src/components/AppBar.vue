@@ -2,17 +2,25 @@
     <v-app-bar flat class="bg-primary">
         <div :class="smAndDown ? 'w-25 pl-1' : ''">
             <v-img class="d-sm-none" src="/public/logocolorida.png" />
-            <v-img class="d-sm-block d-none" width="100" src="/public/logocolorida.png" />
+            <v-img class="d-sm-block d-none ml-5" width="100" src="/public/logocolorida.png" />
         </div>
 
         <v-app-bar-title />
 
-        <div :class="smAndDown ? 'pt-2' : ''">
-            <h6 class="text-quintenary font-weight-regular">Cadastro Gratuito</h6>
+        <div :class="smAndDown ? 'pt-1' : ''">
+            <h6 class="text-quintenary font-weight-regular d-sm-none">Cadastro Gratuito</h6>
+            <h5 class="text-quintenary font-weight-regular d-sm-block d-none mr-2">Cadastro Gratuito</h5>
+
         </div>
 
         <div>
-            <v-btn :class="smAndDown ? 'mt-4' : ''" size="x-small" class="bg-primary text-quintenary ma-2" style="border-width: 1px; border-color: #555555;">
+            <v-btn :class="smAndDown ? 'mt-4' : ''" size="x-small" class="bg-primary text-quintenary d-md-none d-sm-none ma-2"
+                style="border-width: 1px; border-color: #555555;">
+                <h6>Acesso à Plataforma</h6>
+            </v-btn>
+
+            <v-btn size="large" class="rounded-lg bg-primary text-quintenary d-sm-block d-none mr-8 ml-2"
+                style="border-width: 1px; border-color: #555555;">
                 <h6>Acesso à Plataforma</h6>
             </v-btn>
         </div>
