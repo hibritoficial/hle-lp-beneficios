@@ -2,13 +2,13 @@
   <div class="d-flex">
 
     <div :class="smAndDown ? 'w-50' : 'w-50'">
-      <v-img cover src="/public/fotobloco1.png" />
+      <v-img cover src="/public/fotobloco1.png"  />
     </div>
 
 
-    <v-img cover src="/public/foto2bloco1.png" align="center" :class="smAndDown ? 'w-50 pt-16' : 'w-50 mt-16 pt-16'">
+    <v-img cover src="/public/foto2bloco1.png" align="center" :class="smAndDown ? 'w-50' : 'w-50 mt-16 pt-16'">
 
-      <h1 class="fontinter text-senario text-sm-h5 text-md-h4" :class="smAndDown ? '' : 'pt-16 mt-16'"
+      <h1 class="fontinter text-senario text-sm-h5 text-md-h4" :class="smAndDown ? 'pt-16' : 'pt-16 mt-16'"
         style="font-size: 8px; font-weight: 900;">Viaje com economia,
         segurança
         <p /> <span class="fontinter text-secondary text-sm-h5 text-md-h4" style="font-size: 10px; font-weight: 900;">e
@@ -18,7 +18,7 @@
 
       <div>
         <v-btn href="#beneficios" size="x-small" class="bg-terciary rounded-lg d-sm-none mt-2 mb-1">
-          <h6 class="font-weight-light">QUERO CONHECER</h6>
+          <h6 class="font-weight-bold">QUERO CONHECER</h6>
         </v-btn>
 
 
@@ -683,7 +683,7 @@
       <div>
         <v-btn href="https://viajehole.com.br/dashboard" target="_blank" size="x-small"
           class="bg-terciary mt-3 rounded d-sm-none">
-          <h6 class="font-weight-light">VER HOTÉIS E RESORTS</h6>
+          <h6 class="font-weight-bold">VER HOTÉIS E RESORTS</h6>
         </v-btn>
 
         <v-btn href="https://viajehole.com.br/dashboard" target="_blank" size="large"
@@ -732,48 +732,48 @@
 
 
 
-  <v-row class="bg-secondary w-100 pt-10">
-    <v-col align="center" cols="12" sm="6">
+  <v-row class="bg-secondary pt-10">
+    <v-col align="center" cols="12" sm="12">
       <v-img src="/public/logobranca.png" class="d-sm-none pb-5" width="80" />
 
-      <v-img src="/public/logobranca.png" class="d-sm-block d-none" width="200" :class="smAndDown ? '' : ''" />
+      <v-img src="/public/logobranca.png" class="d-sm-block d-none" width="200" />
 
       <div class="mt-5">
-        <a class="text-white" href="https://www.facebook.com/viajehole" target="_blank"><v-icon>mdi-facebook</v-icon></a>
-        <a class="text-white" href="https://www.instagram.com/viajehole" target="_blank"><v-icon
+        <a class="text-white" style="text-decoration: none;" href="https://www.facebook.com/viajehole" target="_blank"><v-icon>mdi-facebook</v-icon></a>
+        <a class="text-white" style="text-decoration: none;" href="https://www.instagram.com/viajehole" target="_blank"><v-icon
             class="px-6">mdi-instagram</v-icon></a>
-        <a class="text-white" href="https://www.youtube.com/channel/UC1Jf98JxH9hvTRZ26Azu5UQ"
+        <a class="text-white" style="text-decoration: none;" href="https://www.youtube.com/channel/UC1Jf98JxH9hvTRZ26Azu5UQ"
           target="_blank"><v-icon>mdi-youtube</v-icon></a>
-        <a class="text-white" href="https://www.linkedin.com/company/viajehole/" target="_blank"><v-icon
+        <a class="text-white" style="text-decoration: none;" href="https://www.linkedin.com/company/viajehole/" target="_blank"><v-icon
             class="px-6">mdi-linkedin</v-icon></a>
-        <a class="text-white" href="https://twitter.com/viajehole" target="_blank"><v-icon>mdi-twitter</v-icon></a>
+        <a class="text-white" style="text-decoration: none;" href="https://twitter.com/viajehole" target="_blank"><v-icon>mdi-twitter</v-icon></a>
       </div>
 
-      <a href="https://viajehole.com.br/#home" target="_blank">
+      <a href="https://viajehole.com.br/#home" style="text-decoration: none;" target="_blank">
         <h5 class="font-weight-light mt-5 text-white">Home</h5>
       </a>
-      <a href="https://viajehole.com.br/#como-funciona" target="_blank">
+      <a href="https://viajehole.com.br/#como-funciona"  tyle="text-decoration: none;" target="_blank">
         <h5 class="font-weight-light mt-3 text-white">Como Funciona?</h5>
       </a>
-      <a href="https://viajehole.com.br/#beneficios" target="_blank">
+      <a href="https://viajehole.com.br/#beneficios" style="text-decoration: none;" target="_blank">
         <h5 class="font-weight-light mt-3 text-white">Beneficios</h5>
       </a>
-      <a href="https://viajehole.com.br/#planos" target="_blank">
+      <a href="https://viajehole.com.br/#planos" style="text-decoration: none;" target="_blank">
         <h5 class="font-weight-light mt-3 text-white">Planos</h5>
       </a>
-      <a href="https://viajehole.com.br/#fale-conosco" target="_blank">
+      <a href="https://viajehole.com.br/#fale-conosco" style="text-decoration: none;" target="_blank">
         <h5 class="font-weight-light mt-3 text-white">Fale Conosco</h5>
       </a>
     </v-col>
 
 
-    <v-col class="d-flex mr-5" align="center">
+    <v-col class="d-flex" align="center">
       <div :class="smAndDown ? 'w-100 mt-5 ml-3' : 'w-50 pt-10'">
         <v-img class="rounded-xl ml-3" src="/public/imgrodape.png" />
       </div>
 
-      <div :class="smAndDown ? 'w-100' : 'w-50 mr-5'">
-        <a href="https://viajehole.com.br/dashboard" target="_blank">
+      <div :class="smAndDown ? 'w-100 pr-5' : 'w-50 pr-5'">
+        <a style="text-decoration: none;" href="https://viajehole.com.br/dashboard" target="_blank">
           <v-img class="rounded-xl ml-3" src="/public/imgrodape2.png" />
         </a>
       </div>
