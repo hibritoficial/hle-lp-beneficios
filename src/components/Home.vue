@@ -733,7 +733,7 @@
 
 
   <v-row class="bg-secondary pt-10">
-    <v-col align="center" cols="12" sm="12">
+    <v-col align="center">
       <v-img src="/public/logobranca.png" class="d-sm-none pb-5" width="80" />
 
       <v-img src="/public/logobranca.png" class="d-sm-block d-none" width="200" />
@@ -780,12 +780,12 @@
     </v-col>
 
     <v-footer align="center" class="d-flex flex-column bg-secondary pt-16 pb-8">
-      <div>
+      <div class="w-100">
         <h3 class="font-weight-regular text-white text-sm-h6 text-md-h6" style="font-size: 8px;"><v-icon color="terciary" size="large" class="mr-2">mdi-map-marker</v-icon>SAUS, Quadra 3, Ed. Business Point Quinto andar / Sala 521 Asa Sul / Brasília / DF</h3>
       </div>
   
   
-      <div class="mt-5">
+      <div class="mt-5 w-100">
         <h3  class="font-weight-regular text-white text-sm-h6 text-md-h6" style="font-size: 15px;"><v-icon color="terciary" class="mr-2">mdi-whatsapp</v-icon>61 9 8552-1088</h3>
       </div>
     </v-footer>
