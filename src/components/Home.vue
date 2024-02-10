@@ -5,7 +5,9 @@
       <v-img cover src="/public/fotobloco1.png" />
     </div>
 
-    <div align="center" :class="smAndDown ? 'w-50 pt-16' : 'w-50 mt-16 pt-16'">
+
+    <v-img cover src="/public/foto2bloco1.png" align="center" :class="smAndDown ? 'w-50 pt-16' : 'w-50 mt-16 pt-16'">
+
       <h1 class="fontinter text-senario text-sm-h5 text-md-h4" :class="smAndDown ? '' : 'pt-16 mt-16'"
         style="font-size: 8px; font-weight: 900;">Viaje com economia,
         segurança
@@ -15,35 +17,37 @@
       </h1>
 
       <div>
-        <v-btn size="x-small" class="bg-terciary rounded-lg d-sm-none mt-2 mb-1">
+        <v-btn href="#beneficios" size="x-small" class="bg-terciary rounded-lg d-sm-none mt-2 mb-1">
           <h6 class="font-weight-light">QUERO CONHECER</h6>
         </v-btn>
 
 
-        <v-btn size="x-large" class="bg-terciary rounded-lg d-sm-block d-none"
-          :class="smAndDown ? 'mt-8 mb-4 w-50' : 'mt-16'">
-          <h5 class="font-weight-regular text-md-h6" :class="smAndDown ? '' : ' font-weight-regular'">QUERO CONHECER</h5>
+        <v-btn href="#beneficios" size="x-large" class="bg-terciary rounded-lg d-sm-block d-none"
+          :class="smAndDown ? 'mt-8 mb-4 w-50 pt-4' : 'mt-16 w-50 pt-2'">
+          <h5 class="font-weight-bold text-md-h6">QUERO CONHECER</h5>
         </v-btn>
 
 
         <p class="text-quintenary d-sm-none" :class="smAndDown ? 'pt-1 px-4' : ''" style="font-size: 6px;">Ainda tem
-          dúvidas? <a href="https://viajehole.com.br/" target="_blank">Clique aqui</a> e fale com um de nossos atendentes
+          dúvidas? <a href="https://wa.me/5561985521088?text=Oi" target="_blank">Clique aqui</a> e fale com um de nossos
+          atendentes
           pelo
           WhatsApp.</p>
 
         <p class="text-quintenary d-sm-block d-none" :class="smAndDown ? 'pt-1 px-10' : 'pt-8'" style="font-size: 10px;">
           Ainda
-          tem dúvidas? <a href="https://viajehole.com.br/" target="_blank">Clique aqui</a> e fale com um de nossos
+          tem dúvidas? <a href="https://wa.me/5561985521088?text=Oi" target="_blank">Clique aqui</a> e fale com um de
+          nossos
           atendentes pelo
           WhatsApp.</p>
 
 
       </div>
-    </div>
+    </v-img>
   </div>
 
-  <div :class="smAndDown ? 'pt-16 pb-16' : 'pt-16 pb-16'" class="bg-quartiary" align="center">
-    <h5 class="fontinter text-terciary font-weight-bold text-sm-h5 text-md-h3">Aproveite Beneficios
+  <div id="beneficios" :class="smAndDown ? 'pt-16 pb-16' : 'pt-16 pb-16'" class="bg-quartiary" align="center">
+    <h5 class="fontinter text-terciary font-weight-bold text-sm-h5 text-md-h3">Aproveite Benefícios
       <p /> Extras Exclusivos
     </h5>
 
@@ -51,60 +55,60 @@
 
       <div :class="smAndDown ? 'w-50 pa-1 pb-5' : 'w-25 pb-16'" class="bg-terciary rounded-lg">
         <v-img src="/public/assistencia.png" :class="smAndDown ? 'w-75' : 'w-75'" />
-        <h6 style="font-size: 10px;" class="font-weight-light text-sm-h6 text-md-h5">Assistência Viagem</h6>
+        <h6 style="font-size: 10px;" class="font-weight-bold text-sm-h6 text-md-h5">Assistência Viagem</h6>
 
         <div>
-          <v-btn class="bg-transparent mt-6 rounded-xl d-sm-none" style="border-width: 1px; border-color: white;"
-            size="x-small">
+          <v-btn href="#assistencia" class="bg-transparent mt-6 rounded-xl d-sm-none"
+            style="border-width: 1px; border-color: white;" size="x-small">
             <h6 class="font-weight-light">Saiba Mais</h6>
           </v-btn>
 
-          <v-btn class="bg-transparent mt-11 rounded-xl d-sm-block d-none mt-16 w-75"
+          <v-btn href="#assistencia" class="bg-transparent mt-11 rounded-xl d-sm-block d-none mt-16 w-75"
             style="border-width: 1px; border-color: white;" size="large">
-            <h6 class="font-weight-light">Saiba Mais</h6>
+            <h6 class="font-weight-light pt-4">Saiba Mais</h6>
           </v-btn>
         </div>
       </div>
 
       <div :class="smAndDown ? 'w-50 pa-1 mx-2 pb-5' : 'w-25 pb-16'" class="bg-terciary rounded-lg">
         <v-img src="/public/telemedicina.png" :class="smAndDown ? 'w-75' : 'w-75'" />
-        <h6 style="font-size: 10px;" class="font-weight-light text-sm-h6 text-md-h5">Telemedicina</h6>
+        <h6 style="font-size: 10px;" class="font-weight-bold text-sm-h6 text-md-h5">Telemedicina</h6>
 
         <div>
-          <v-btn class="bg-transparent mt-6 rounded-xl d-sm-none" style="border-width: 1px; border-color: white;"
-            size="x-small">
+          <v-btn href="#telemedicina" class="bg-transparent mt-6 rounded-xl d-sm-none"
+            style="border-width: 1px; border-color: white;" size="x-small">
             <h6 class="font-weight-light">Saiba Mais</h6>
           </v-btn>
 
-          <v-btn class="bg-transparent mt-11 rounded-xl d-sm-block d-none mt-16 w-75"
+          <v-btn href="#telemedicina" class="bg-transparent mt-11 rounded-xl d-sm-block d-none mt-16 w-75"
             style="border-width: 1px; border-color: white;" size="large">
-            <h6 class="font-weight-light">Saiba Mais</h6>
+            <h6 class="font-weight-light pt-4">Saiba Mais</h6>
           </v-btn>
         </div>
       </div>
 
       <div :class="smAndDown ? 'w-50 pa-1 pb-5' : 'w-25 pb-16'" class="bg-terciary rounded-lg">
         <v-img src="/public/descontos.png" :class="smAndDown ? 'w-75' : 'w-75'" />
-        <h6 class="text-sm-h6 text-md-h5" :class="smAndDown ? '' : 'px-8'" style="font-size: 9px;">Descontos <span
-            class="font-weight-light">na</span> Rede de
+        <h6 class="text-sm-h6 text-md-h5 font-weight-bold" :class="smAndDown ? '' : 'px-8'" style="font-size: 9px;">
+          Descontos na Rede de
           Parceiros</h6>
 
         <div>
-          <v-btn class="bg-transparent mt-3 rounded-xl d-sm-none" style="border-width: 1px; border-color: white;"
-            size="x-small">
+          <v-btn href="#descontos" class="bg-transparent mt-3 rounded-xl d-sm-none"
+            style="border-width: 1px; border-color: white;" size="x-small">
             <h6 class="font-weight-light">Saiba Mais</h6>
           </v-btn>
 
-          <v-btn class="bg-transparent mt-3 rounded-xl d-sm-block d-none mt-8 w-75"
+          <v-btn href="#descontos" class="bg-transparent mt-3 rounded-xl d-sm-block d-none mt-8 w-75"
             style="border-width: 1px; border-color: white;" size="large">
-            <h6 class="font-weight-light">Saiba Mais</h6>
+            <h6 class="font-weight-light pt-4">Saiba Mais</h6>
           </v-btn>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="d-flex" align="center" :class="smAndDown ? 'pb-4' : 'pb-16'">
+  <div id="assistencia" class="d-flex" align="center" :class="smAndDown ? 'pb-4' : 'pb-16'">
 
     <div :class="smAndDown ? 'w-50 pt-2 px-4' : 'w-50'">
       <h5 class="fontinter text-terciary d-sm-none">Assistência Viagem</h5>
@@ -176,7 +180,7 @@
       <v-img cover src="/public/telemkt2.png" :class="smAndDown ? 'w-100 pb-10' : 'w-100'" />
     </div>
 
-    <div :class="smAndDown ? 'w-50' : 'w-50'">
+    <div id="telemedicina" :class="smAndDown ? 'w-50' : 'w-50'">
 
       <div :class="smAndDown ? 'w-75 pt-2' : ''">
         <h5 class="fontinter text-terciary d-sm-none">Telemedicina</h5>
@@ -224,7 +228,8 @@
             <h6>COMO UTILIZAR</h6>
           </v-btn>
 
-          <v-btn size="large" class="bg-terciary rounded-lg mt-2 d-sm-block d-none" :class="smAndDown ? 'w-50 mt-4' : 'mt-10 w-50'">
+          <v-btn size="large" class="bg-terciary rounded-lg mt-2 d-sm-block d-none"
+            :class="smAndDown ? 'w-50 mt-4' : 'mt-10 w-50'">
             <h6 class="text-md-h6">COMO UTILIZAR</h6>
           </v-btn>
         </div>
@@ -232,18 +237,24 @@
     </div>
   </div>
 
-  <div align="center" :class="smAndDown ? 'pt-5 pb-4' : 'pt-16 mt-16 pb-16'">
-    <h4 class="fontinter text-terciary font-weight-bold d-sm-none">Descontos na Rede de Parceiros</h4>
-    <h2 class="fontinter text-terciary font-weight-bold d-sm-block d-none text-md-h3" :class="smAndDown ? 'pt-10 pb-10' : 'pt-16 pb-16'">Descontos na Rede de Parceiros
-    </h2>
+  <div id="descontos" align="center" :class="smAndDown ? 'pt-5 pb-4' : 'pt-16 mt-16 pb-16'">
+    <v-img cover src="/public/fundodesconto.png">
+
+      <h3 class="fontinter text-terciary font-weight-bold d-sm-none pt-5 pb-5">Descontos na Rede de Parceiros</h3>
+      <h2 class="fontinter text-terciary font-weight-bold d-sm-block d-none  text-md-h2"
+        :class="smAndDown ? 'pt-10 pb-10 text-h4' : 'pt-16 mt-5 pb-16'">Descontos na Rede de Parceiros
+      </h2>
+    </v-img>
   </div>
 
   <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-4 px-1' : 'px-16'">
 
-    <div class="degrade1 rounded-lg text-white" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : 'w-50 pl-10 pr-10 pt-2 pb-2'">
+    <div class="degrade1 rounded-lg text-white"
+      :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : 'w-50 pl-10 pr-10 pt-2 pb-2'">
 
-      <h6 class="font-weight-light text-sm-h6 text-md-h5" :class="smAndDown ? '' : 'pb-1'">VAI DE PROMO
-        <p class="font-weight-bold d-md-none" style="font-size: 8px; line-height: 7px;" :class="smAndDown ? '' : 'pt-1 text-h6'">Passagens Aéreas</p>
+      <h6 class="font-weight-bold text-sm-h6 text-md-h5" :class="smAndDown ? '' : 'pb-1'">VAI DE PROMO
+        <p class="font-weight-bold d-md-none" style="font-size: 8px; line-height: 7px;"
+          :class="smAndDown ? '' : 'pt-1 text-h6'">Passagens Aéreas</p>
 
         <p class="font-weight-bold d-none d-md-block mt-1" style="font-size: 12px; line-height: 7px;">Passagens Aéreas</p>
       </h6>
@@ -253,21 +264,26 @@
         até <span class="font-weight-bold">40% de desconto</span> para
         destinos nacionais e internacionais.</p>
 
-      <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-2' : 'text-h6 pt-2'">Garanta sua
+      <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-2' : 'text-h6 pt-2'">
+        Garanta sua
         passagem aérea com
         até <span class="font-weight-bold">40% de desconto</span> para
         destinos nacionais e internacionais.</p>
 
 
       <div align="right">
-        <v-btn size="x-small" class="d-md-none bg-transparent mr-1 rounded-pill mt-2 mb-1"
+        <v-btn
+          href="https://www.vaidepromo.com.br/passagens-aereas/?utm_medium=afiliado&pcrid=1296&utm_source=site-blog&pcrtt=viajehole"
+          target="_blank" size="x-small" class="d-md-none bg-transparent mr-1 rounded-pill mt-2 mb-1"
           style="border-width: 1px; border-color: white; font-size: 8px;">
           <h6 class="text-white">Vai de promo <v-icon>mdi-arrow-right</v-icon></h6>
         </v-btn>
 
-        <v-btn size="large" class="d-none d-md-block bg-transparent rounded-pill mt-2 mb-1 w-25"
+        <v-btn
+          href="https://www.vaidepromo.com.br/passagens-aereas/?utm_medium=afiliado&pcrid=1296&utm_source=site-blog&pcrtt=viajehole"
+          target="_blank" size="large" class="d-none d-md-block bg-transparent rounded-pill mt-2 mb-1 w-25"
           style="border-width: 1px; border-color: white; font-size: 18px;">
-          <h6 class="text-white">Vai de promo <v-icon>mdi-arrow-right</v-icon></h6>
+          <h6 class="text-white pt-4">Vai de promo <v-icon class="pb-1">mdi-arrow-right</v-icon></h6>
         </v-btn>
       </div>
     </div>
@@ -284,12 +300,14 @@
       <v-img src="/public/gipssy.png" :class="smAndDown ? 'w-75' : 'w-50'" />
     </div>
 
-    <div class="degrade2 rounded-lg text-white" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : 'w-50 pl-10 pr-10 pt-2 pb-2'">
+    <div class="degrade2 rounded-lg text-white"
+      :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : 'w-50 pl-10 pr-10 pt-2 pb-2'">
 
-      <h6 class="font-weight-light text-sm-h6 text-md-h5">GIPSYY
+      <h6 class="font-weight-bold text-sm-h6 text-md-h5">GIPSYY
         <p class="font-weight-bold d-md-none" style="font-size: 8px; line-height: 7px;">Passagens Rodoviárias</p>
 
-        <p class="font-weight-bold d-none d-md-block mt-1" style="font-size: 12px; line-height: 7px;">Passagens Rodoviárias</p>
+        <p class="font-weight-bold d-none d-md-block mt-1" style="font-size: 12px; line-height: 7px;">Passagens
+          Rodoviárias</p>
       </h6>
 
       <p class="font-weight-light d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-2' : ''">Compre suas
@@ -298,7 +316,8 @@
           class="font-weight-bold">10% de desconto</span> com o nosso
         cupom.</p>
 
-      <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-2 pr-2' : 'text-h6 pt-2'">Compre
+      <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;"
+        :class="smAndDown ? 'pt-2 pr-2' : 'text-h6 pt-2'">Compre
         suas passagens
         rodoviárias online para todo o Brasil, com os melhores preços, e ainda ganhe mais <span
           class="font-weight-bold">10% de desconto</span> com o nosso
@@ -307,20 +326,23 @@
 
       <p class="font-weight-bold d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-1' : ''">Use o cupom: HOLE10
       </p>
-      <p class="font-weight-bold d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-1' : 'text-h6 pt-2'">Use o cupom:
+      <p class="font-weight-bold d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-1' : 'text-h6 pt-2'">
+        Use o cupom:
         HOLE10</p>
 
 
 
       <div align="right">
-        <v-btn size="x-small" class="d-md-none bg-transparent mr-1 rounded-pill mt-2 mb-1"
+        <v-btn href="https://gipsyy.com.br" target="_blank" size="x-small"
+          class="d-md-none bg-transparent mr-1 rounded-pill mt-2 mb-1"
           style="border-width: 1px; border-color: white; font-size: 8px;">
           <h6 class="text-white">Gipssy <v-icon>mdi-arrow-right</v-icon></h6>
         </v-btn>
 
-        <v-btn size="large" class="d-none d-md-block bg-transparent rounded-pill mt-2 mb-1 w-25"
+        <v-btn href="https://gipsyy.com.br" target="_blank" size="large"
+          class="d-none d-md-block bg-transparent rounded-pill mt-2 mb-1 w-25"
           style="border-width: 1px; border-color: white; font-size: 18px;">
-          <h6 class="text-white">Gipssy <v-icon>mdi-arrow-right</v-icon></h6>
+          <h6 class="text-white pt-4">Gipssy <v-icon class="pb-1">mdi-arrow-right</v-icon></h6>
         </v-btn>
       </div>
     </div>
@@ -329,12 +351,13 @@
 
   <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-3 px-1' : 'px-16 pt-8'">
 
-    <div class="degrade1 rounded-lg text-white" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : 'w-50 pl-10 pr-10 pt-2 pb-2'">
+    <div class="degrade1 rounded-lg text-white"
+      :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : 'w-50 pl-10 pr-10 pt-2 pb-2'">
 
-      <h6 class="font-weight-light text-sm-h6 text-md-h5">SEGUROS PROMO
+      <h6 class="font-weight-bold text-sm-h6 text-md-h5">SEGUROS PROMO
         <p class="font-weight-bold d-md-none" style="font-size: 8px; line-height: 7px;">Passagens Aéreas</p>
 
-        
+
         <p class="font-weight-bold d-none d-md-block mt-1" style="font-size: 12px; line-height: 7px;">Passagens Aéreas</p>
       </h6>
 
@@ -342,35 +365,41 @@
         encontre o
         melhor
         seguro viagem nacional ou internacional e ganhe
-        <span class="font-weight-bold">15% de desconto </span> na compra online.</p>
+        <span class="font-weight-bold">15% de desconto </span> na compra online.
+      </p>
 
-      <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-2 pr-5' : 'text-h6 pt-2'">Compare
+      <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;"
+        :class="smAndDown ? 'pt-2 pr-5' : 'text-h6 pt-2'">Compare
         e encontre o
         melhor
         seguro viagem nacional ou internacional e ganhe
-        <span class="font-weight-bold">15% de desconto </span> na compra online.</p>
+        <span class="font-weight-bold">15% de desconto </span> na compra online.
+      </p>
 
       <p class="font-weight-bold d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-1' : ''">Use o cupom: HOLE15
       </p>
-      <p class="font-weight-bold d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-1' : 'text-h6 pt-2'">Use o cupom:
+      <p class="font-weight-bold d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-1' : 'text-h6 pt-2'">
+        Use o cupom:
         HOLE15</p>
 
 
       <div align="right">
-        <v-btn size="x-small" class="d-md-none bg-transparent mr-1 rounded-pill mt-2 mb-1"
+        <v-btn href="https://www.segurospromo.com.br/?utm_medium=afiliado&pcrid=1296&utm_source=site-blog&cupom=HOLE15"
+          target="_blank" size="x-small" class="d-md-none bg-transparent mr-1 rounded-pill mt-2 mb-1"
           style="border-width: 1px; border-color: white; font-size: 8px;">
           <h6 class="text-white">Seguros Promo <v-icon>mdi-arrow-right</v-icon></h6>
         </v-btn>
 
-        <v-btn size="large" class="d-none d-md-block bg-transparent mr-1 rounded-pill mt-2 mb-1 w-50"
-        style="border-width: 1px; border-color: white; font-size: 18px;">
-        <h6 class="text-white">Seguros Promo <v-icon>mdi-arrow-right</v-icon></h6>
-      </v-btn>
+        <v-btn href="https://www.segurospromo.com.br/?utm_medium=afiliado&pcrid=1296&utm_source=site-blog&cupom=HOLE15"
+          target="_blank" size="large" class="d-none d-md-block bg-transparent mr-1 rounded-pill mt-2 mb-1 w-50"
+          style="border-width: 1px; border-color: white; font-size: 18px;">
+          <h6 class="text-white pt-4">Seguros Promo <v-icon class="pb-1">mdi-arrow-right</v-icon></h6>
+        </v-btn>
       </div>
     </div>
 
     <div align="center" :class="smAndDown ? 'w-50 pt-5' : 'w-50'">
-      <v-img src="/public/segurospromo.png" :class="smAndDown ? 'w-75' : 'w-50'"/>
+      <v-img src="/public/segurospromo.png" :class="smAndDown ? 'w-75' : 'w-50'" />
     </div>
   </div>
 
@@ -381,12 +410,14 @@
       <v-img src="/public/rentcars.png" :class="smAndDown ? 'w-75 mt-2' : 'w-50'" />
     </div>
 
-    <div class="degrade2 rounded-lg text-white" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : 'w-50 pl-10 pr-10 pt-2 pb-2'">
+    <div class="degrade2 rounded-lg text-white"
+      :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : 'w-50 pl-10 pr-10 pt-2 pb-2'">
 
-      <h6 class="font-weight-light text-sm-h6 text-md-h5">RENTCARS
+      <h6 class="font-weight-bold text-sm-h6 text-md-h5">RENTCARS
         <p class="font-weight-bold d-md-none" style="font-size: 8px; line-height: 7px;">Aluguel de Carros</p>
 
-        <p class="font-weight-bold d-none d-md-block mt-1" style="font-size: 12px; line-height: 7px;">Aluguel de Carros</p>
+        <p class="font-weight-bold d-none d-md-block mt-1" style="font-size: 12px; line-height: 7px;">Aluguel de Carros
+        </p>
       </h6>
 
       <p class="font-weight-light d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-2' : ''">Com a Rentcars,
@@ -394,21 +425,24 @@
         aluga carros com os melhores preços em mais de 200 locadoras de veículos tanto em destinos nacionais como
         internacionais.</p>
 
-      <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-2 pr-2' : 'text-h6 pt-2'">Com a
+      <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;"
+        :class="smAndDown ? 'pt-2 pr-2' : 'text-h6 pt-2'">Com a
         Rentcars, você
         aluga carros com os melhores preços em mais de 200 locadoras de veículos tanto em destinos nacionais como
         internacionais.</p>
 
       <div align="right">
-        <v-btn size="x-small" class="d-md-none bg-transparent mr-1 rounded-pill mt-2 mb-1"
+        <v-btn href="https://www.rentcars.com/pt-br/?requestorid=281" target="_blank" size="x-small"
+          class="d-md-none bg-transparent mr-1 rounded-pill mt-2 mb-1"
           style="border-width: 1px; border-color: white; font-size: 8px;">
           <h6 class="text-white">RentCars <v-icon>mdi-arrow-right</v-icon></h6>
         </v-btn>
 
-        <v-btn size="large" class="d-none d-md-block bg-transparent mr-1 rounded-pill mt-2 mb-1 w-25"
-        style="border-width: 1px; border-color: white; font-size: 18px;">
-        <h6 class="text-white">RentCars <v-icon>mdi-arrow-right</v-icon></h6>
-      </v-btn>
+        <v-btn href="https://www.rentcars.com/pt-br/?requestorid=281" target="_blank" size="large"
+          class="d-none d-md-block bg-transparent mr-1 rounded-pill mt-2 mb-1 w-25"
+          style="border-width: 1px; border-color: white; font-size: 18px;">
+          <h6 class="text-white pt-4">RentCars <v-icon class="pb-1">mdi-arrow-right</v-icon></h6>
+        </v-btn>
       </div>
     </div>
   </div>
@@ -416,12 +450,15 @@
 
   <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-3 px-1' : 'px-16 pt-8'">
 
-    <div class="degrade1 rounded-lg text-white" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : 'w-50 pl-10 pr-10 pt-2 pb-2'">
+    <div class="degrade1 rounded-lg text-white"
+      :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : 'w-50 pl-10 pr-10 pt-2 pb-2'">
 
-      <h6 class="font-weight-light text-sm-h6 text-md-h5">THE IFRIEND
-        <p class="font-weight-bold d-md-none" style="font-size: 8px; line-height: 7px;">Guias, experiências turísticas e tickets</p>
+      <h6 class="font-weight-bold text-sm-h6 text-md-h5">THE IFRIEND
+        <p class="font-weight-bold d-md-none" style="font-size: 8px; line-height: 7px;">Guias, experiências turísticas e
+          tickets</p>
 
-        <p class="font-weight-bold d-none d-md-block mt-1" style="font-size: 12px; line-height: 7px;">Guias, experiências turísticas e tickets</p>
+        <p class="font-weight-bold d-none d-md-block mt-1" style="font-size: 12px; line-height: 7px;">Guias, experiências
+          turísticas e tickets</p>
       </h6>
 
       <p class="font-weight-light d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-5' : ''">Com a Holé,
@@ -432,7 +469,8 @@
         português e podem mostrar o melhor de cada local visitado.
       </p>
 
-      <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-2 pr-5' : 'text-h6 pt-2'">Com a
+      <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;"
+        :class="smAndDown ? 'pt-2 pr-5' : 'text-h6 pt-2'">Com a
         Holé, você terá
         <span class="font-weight-bold"> 8%
           de desconto</span> para contratar guias locais experientes, nos principais destinos turísticos pelo mundo, que
@@ -442,19 +480,22 @@
 
       <p class="font-weight-bold d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-1' : ''">Use o cupom: HOLE8
       </p>
-      <p class="font-weight-bold d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-1' : 'text-h6 pt-2'">Use o cupom:
+      <p class="font-weight-bold d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-1' : 'text-h6 pt-2'">
+        Use o cupom:
         HOLE8</p>
 
 
       <div align="right">
-        <v-btn size="x-small" class="d-md-none bg-transparent mr-1 rounded-pill mt-2 mb-1"
+        <v-btn href="https://www.theifriend.com/partner/bomtur-turismo" target="_blank" size="x-small"
+          class="d-md-none bg-transparent mr-1 rounded-pill mt-2 mb-1"
           style="border-width: 1px; border-color: white; font-size: 8px;">
           <h6 class="text-white">The Ifriend <v-icon>mdi-arrow-right</v-icon></h6>
         </v-btn>
 
-        <v-btn size="large" class="d-none d-md-block bg-transparent mr-1 rounded-pill mt-2 mb-1 w-25"
+        <v-btn href="https://www.theifriend.com/partner/bomtur-turismo" target="_blank" size="large"
+          class="d-none d-md-block bg-transparent mr-1 rounded-pill mt-2 mb-1 w-25"
           style="border-width: 1px; border-color: white; font-size: 18px;">
-          <h6 class="text-white">The Ifriend <v-icon>mdi-arrow-right</v-icon></h6>
+          <h6 class="text-white pt-4">The Ifriend <v-icon class="pb-1">mdi-arrow-right</v-icon></h6>
         </v-btn>
       </div>
     </div>
@@ -471,12 +512,14 @@
       <v-img src="/public/airalo.png" :class="smAndDown ? 'w-75 mt-2' : 'w-50'" />
     </div>
 
-    <div class="degrade2 rounded-lg text-white" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : 'w-50 pl-10 pr-10 pt-2 pb-2'">
+    <div class="degrade2 rounded-lg text-white"
+      :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : 'w-50 pl-10 pr-10 pt-2 pb-2'">
 
-      <h6 class="font-weight-light text-sm-h6 text-md-h5">AIRALO
+      <h6 class="font-weight-bold text-sm-h6 text-md-h5">AIRALO
         <p class="font-weight-bold d-md-none" style="font-size: 8px; line-height: 7px;">eSIM (Chip virtual)</p>
 
-        <p class="font-weight-bold d-none d-md-block mt-1" style="font-size: 12px; line-height: 7px;">eSIM (Chip virtual)</p>
+        <p class="font-weight-bold d-none d-md-block mt-1" style="font-size: 12px; line-height: 7px;">eSIM (Chip virtual)
+        </p>
       </h6>
 
       <p class="font-weight-light d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pl-3' : ''">
@@ -487,7 +530,8 @@
       </ul>
       </p>
 
-      <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-2 pl-3' : 'pl-5 pb-2 text-h6 pt-2'">
+      <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;"
+        :class="smAndDown ? 'pt-2 pl-3' : 'pl-5 pb-2 text-h6 pt-2'">
       <ul>
         <li>Desconto de 15%</li>
         <li>Usuários novos e existentes</li>
@@ -497,19 +541,22 @@
 
       <p class="font-weight-bold d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-1 pl-1' : ''">Use o cupom:
         HOLE15</p>
-      <p class="font-weight-bold d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-1 pl-1' : 'text-h6 pt-2'">Use o
+      <p class="font-weight-bold d-sm-block d-none" style="font-size: 9px;"
+        :class="smAndDown ? 'pt-1 pl-1' : 'text-h6 pt-2'">Use o
         cupom: HOLE15</p>
 
       <div align="right">
-        <v-btn size="x-small" class="d-md-none bg-transparent mr-1 rounded-pill mt-2 mb-1"
+        <v-btn href="https://airalo.pxf.io/c/4927658/1735815/15608" target="_blank" size="x-small"
+          class="d-md-none bg-transparent mr-1 rounded-pill mt-2 mb-1"
           style="border-width: 1px; border-color: white; font-size: 8px;">
           <h6 class="text-white">Airalo <v-icon>mdi-arrow-right</v-icon></h6>
         </v-btn>
 
-        <v-btn size="large" class="d-none d-md-block bg-transparent mr-1 rounded-pill mt-2 mb-1 w-25"
-        style="border-width: 1px; border-color: white; font-size: 18px;">
-        <h6 class="text-white">Airalo <v-icon>mdi-arrow-right</v-icon></h6>
-      </v-btn>
+        <v-btn href="https://airalo.pxf.io/c/4927658/1735815/15608" target="_blank" size="large"
+          class="d-none d-md-block bg-transparent mr-1 rounded-pill mt-2 mb-1 w-25"
+          style="border-width: 1px; border-color: white; font-size: 18px;">
+          <h6 class="text-white pt-4">Airalo <v-icon class="pb-1">mdi-arrow-right</v-icon></h6>
+        </v-btn>
       </div>
     </div>
   </div>
@@ -517,12 +564,14 @@
 
   <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-3 px-1' : 'px-16 pt-8'">
 
-    <div class="degrade1 rounded-lg text-white" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : 'w-50 pl-10 pr-10 pt-2 pb-2'">
+    <div class="degrade1 rounded-lg text-white"
+      :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : 'w-50 pl-10 pr-10 pt-2 pb-2'">
 
-      <h6 class="font-weight-light text-sm-h6 text-md-h5">AMERICA CHIP
+      <h6 class="font-weight-bold text-sm-h6 text-md-h5">AMERICA CHIP
         <p class="font-weight-bold d-md-none" style="font-size: 8px; line-height: 7px;">Chip internacional</p>
 
-        <p class="font-weight-bold d-none d-md-block mt-1" style="font-size: 12px; line-height: 7px;">Chip internacional</p>
+        <p class="font-weight-bold d-none d-md-block mt-1" style="font-size: 12px; line-height: 7px;">Chip internacional
+        </p>
       </h6>
 
       <p class="font-weight-light d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-5' : ''">A America Chip
@@ -532,7 +581,8 @@
         compra do seu chip online e receba-o em
         sua casa.</p>
 
-      <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-2 pr-5' : 'text-h6 pt-2'">A
+      <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;"
+        :class="smAndDown ? 'pt-2 pr-5' : 'text-h6 pt-2'">A
         America Chip oferece o
         melhor chip internacional do mercado com cobertura para mais de 200 países. Viaje com a liberdade e segurança de
         poder se comunicar mesmo estando no exterior. Aproveite <span class="font-weight-bold">10% de desconto </span> na
@@ -541,19 +591,24 @@
 
       <p class="font-weight-bold d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-1' : ''">Use o cupom:
         AMERICA10</p>
-      <p class="font-weight-bold d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-1' : 'text-h6 pt-2'">Use o cupom:
+      <p class="font-weight-bold d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-1' : 'text-h6 pt-2'">
+        Use o cupom:
         AMERICA10</p>
 
       <div align="right">
-        <v-btn size="x-small" class="d-md-none bg-transparent mr-1 rounded-pill mt-2 mb-1"
+        <v-btn
+          href="https://www.parceirospromo.com.br/partners/affiliate/americachip?utm_medium=afiliado&pcrid=1296&utm_source=site-blog&cupom=AMERICA10"
+          target="_blank" size="x-small" class="d-md-none bg-transparent mr-1 rounded-pill mt-2 mb-1"
           style="border-width: 1px; border-color: white; font-size: 8px;">
           <h6 class="text-white">America Chip <v-icon>mdi-arrow-right</v-icon></h6>
         </v-btn>
 
-        <v-btn size="large" class="d-none d-md-block bg-transparent mr-1 rounded-pill mt-2 mb-1 w-25"
-        style="border-width: 1px; border-color: white; font-size: 18px;">
-        <h6 class="text-white">America Chip <v-icon>mdi-arrow-right</v-icon></h6>
-      </v-btn>
+        <v-btn
+          href="https://www.parceirospromo.com.br/partners/affiliate/americachip?utm_medium=afiliado&pcrid=1296&utm_source=site-blog&cupom=AMERICA10"
+          target="_blank" size="large" class="d-none d-md-block bg-transparent mr-1 rounded-pill mt-2 mb-1 w-25"
+          style="border-width: 1px; border-color: white; font-size: 18px;">
+          <h6 class="text-white pt-4">America Chip <v-icon class="pb-1">mdi-arrow-right</v-icon></h6>
+        </v-btn>
       </div>
     </div>
 
@@ -569,31 +624,38 @@
       <v-img src="/public/getmalas.png" :class="smAndDown ? 'w-75' : 'w-50'" />
     </div>
 
-    <div class="degrade2 rounded-lg text-white" :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : 'w-50 pl-10 pr-10 pt-2 pb-2'">
+    <div class="degrade2 rounded-lg text-white"
+      :class="smAndDown ? 'w-50 pb-1 pl-3 pr-2 pt-1' : 'w-50 pl-10 pr-10 pt-2 pb-2'">
 
-      <h6 class="font-weight-light text-sm-h6 text-md-h5">GETMALAS
+      <h6 class="font-weight-bold text-sm-h6 text-md-h5">GETMALAS
         <p class="font-weight-bold d-md-none" style="font-size: 8px; line-height: 7px;">Aluguel de malas de viagem</p>
 
-        <p class="font-weight-bold d-none d-md-block mt-1" style="font-size: 12px; line-height: 7px;">Aluguel de malas de viagem</p>
+        <p class="font-weight-bold d-none d-md-block mt-1" style="font-size: 12px; line-height: 7px;">Aluguel de malas de
+          viagem</p>
       </h6>
 
       <p class="font-weight-light d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-2' : ''">
         Viaje a lazer ou a trabalho com malas premium de forma simples, segura, econômica e descomplicada.
       </p>
 
-      <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;" :class="smAndDown ? 'pt-2 pr-2' : 'text-h6 pt-2'">
+      <p class="font-weight-light d-sm-block d-none" style="font-size: 9px;"
+        :class="smAndDown ? 'pt-2 pr-2' : 'text-h6 pt-2'">
         Viaje a lazer ou a trabalho com malas premium de forma simples, segura, econômica e descomplicada.
       </p>
 
       <div align="right">
-        <v-btn size="x-small" class="d-md-none bg-transparent mr-1 rounded-pill mt-2 mb-1"
+        <v-btn
+          href="https://www.parceirospromo.com.br/partners/affiliate/get-malas?utm_medium=afiliado&pcrid=1296&utm_source=site-blog&pcrtt=viajehole"
+          target="_blank" size="x-small" class="d-md-none bg-transparent mr-1 rounded-pill mt-2 mb-1"
           style="border-width: 1px; border-color: white; font-size: 8px;">
           <h6 class="text-white">GetMalas <v-icon>mdi-arrow-right</v-icon></h6>
         </v-btn>
 
-        <v-btn size="large" class="d-none d-md-block bg-transparent mr-1 rounded-pill mt-2 mb-1 w-25"
+        <v-btn
+          href="https://www.parceirospromo.com.br/partners/affiliate/get-malas?utm_medium=afiliado&pcrid=1296&utm_source=site-blog&pcrtt=viajehole"
+          target="_blank" size="large" class="d-none d-md-block bg-transparent mr-1 rounded-pill mt-2 mb-1 w-25"
           style="border-width: 1px; border-color: white; font-size: 18px;">
-          <h6 class="text-white">GetMalas <v-icon>mdi-arrow-right</v-icon></h6>
+          <h6 class="text-white pt-4">GetMalas <v-icon class="pb-1">mdi-arrow-right</v-icon></h6>
         </v-btn>
       </div>
     </div>
@@ -619,12 +681,14 @@
         e transforme suas férias em momentos inesquecíveis.</p>
 
       <div>
-        <v-btn size="x-small" class="bg-terciary mt-3 rounded d-sm-none">
+        <v-btn href="https://viajehole.com.br/dashboard" target="_blank" size="x-small"
+          class="bg-terciary mt-3 rounded d-sm-none">
           <h6 class="font-weight-light">VER HOTÉIS E RESORTS</h6>
         </v-btn>
 
-        <v-btn size="large" class="bg-terciary mt-3 rounded-lg d-sm-block d-none" :class="smAndDown ? 'mt-10 ml-2' : 'mt-16 w-50'">
-          <h5 class="font-weight-light">VER HOTÉIS E RESORTS</h5>
+        <v-btn href="https://viajehole.com.br/dashboard" target="_blank" size="large"
+          class="bg-terciary mt-3 rounded-lg d-sm-block d-none" :class="smAndDown ? 'mt-10 ml-2' : 'mt-16 w-50'">
+          <h5 class="font-weight-bold pt-3">VER HOTÉIS E RESORTS</h5>
         </v-btn>
       </div>
     </div>
@@ -641,7 +705,8 @@
           class="text-terciary">nova forma de
           economizar </span> em suas hospedagens.</h5>
 
-      <h5 class="fontinter text-senario font-weight-bold text-sm-h5 d-sm-block d-none text-md-h2" :class="smAndDown ? 'ml-2' : 'ml-8 mt-10 pr-16'">Somos uma
+      <h5 class="fontinter text-senario font-weight-bold text-sm-h5 d-sm-block d-none text-md-h2"
+        :class="smAndDown ? 'ml-2' : 'ml-8 mt-10 pr-16'">Somos uma
         plataforma que traz uma <span class="text-terciary">nova forma de
           economizar </span> em suas hospedagens.</h5>
 
@@ -652,27 +717,105 @@
         ofertas e tarifas.</p>
 
       <p class="fontinter font-weight-light d-sm-block d-none" style="font-size: 12px;"
-        :class="smAndDown ? 'pr-16 mt-4 ml-2' : 'ml-8 mt-8 text-h5 pr-16 mr-16'">Escolha um dos nossos planos e tenha acesso a
-      mais
-      de <span class="text-terciary font-weight-bold">1.5 milhão de hotéis </span> ao redor do mundo com as melhores
-      ofertas e tarifas.</p>
+        :class="smAndDown ? 'pr-16 mt-4 ml-2' : 'ml-8 mt-8 text-h5 pr-16 mr-16'">Escolha um dos nossos planos e tenha
+        acesso a
+        mais
+        de <span class="text-terciary font-weight-bold">1.5 milhão de hotéis </span> ao redor do mundo com as melhores
+        ofertas e tarifas.</p>
+    </div>
+
+    <div align="right" :class="smAndDown ? 'w-50' : 'w-50'">
+      <v-img src="/public/fotomala.png" :class="smAndDown ? 'w-75 mt-10' : 'w-75 mt-16 pt-10'" />
+    </div>
   </div>
 
-  <div align="right" :class="smAndDown ? 'w-50' : 'w-50'">
-    <v-img src="/public/fotomala.png" :class="smAndDown ? 'w-75 mt-10' : 'w-75 mt-16 pt-10'"/>
-  </div>
-</div>
 
 
-<v-footer align="center" class="bg-secondary">
-  <div align="center" :class="smAndDown ? 'w-100' : 'w-100'">
-    <v-img src="/public/logobranca.png" class="d-sm-none" width="40" />
 
-    <v-img src="/public/logobranca.png" class="d-sm-block d-none" width="80" :class="smAndDown ? '' : ''" />
-  </div>
-</v-footer></template>
+  <v-row class="bg-secondary w-100 pt-10">
+    <v-col align="center" cols="12" sm="6">
+      <v-img src="/public/logobranca.png" class="d-sm-none pb-5" width="80" />
 
-<style scoped>.degrade1 {
+      <v-img src="/public/logobranca.png" class="d-sm-block d-none" width="200" :class="smAndDown ? '' : ''" />
+
+      <div class="mt-5">
+        <a class="text-white" href="https://www.facebook.com/viajehole" target="_blank"><v-icon>mdi-facebook</v-icon></a>
+        <a class="text-white" href="https://www.instagram.com/viajehole" target="_blank"><v-icon
+            class="px-6">mdi-instagram</v-icon></a>
+        <a class="text-white" href="https://www.youtube.com/channel/UC1Jf98JxH9hvTRZ26Azu5UQ"
+          target="_blank"><v-icon>mdi-youtube</v-icon></a>
+        <a class="text-white" href="https://www.linkedin.com/company/viajehole/" target="_blank"><v-icon
+            class="px-6">mdi-linkedin</v-icon></a>
+        <a class="text-white" href="https://twitter.com/viajehole" target="_blank"><v-icon>mdi-twitter</v-icon></a>
+      </div>
+
+      <a href="https://viajehole.com.br/#home" target="_blank">
+        <h5 class="font-weight-light mt-5 text-white">Home</h5>
+      </a>
+      <a href="https://viajehole.com.br/#como-funciona" target="_blank">
+        <h5 class="font-weight-light mt-3 text-white">Como Funciona?</h5>
+      </a>
+      <a href="https://viajehole.com.br/#beneficios" target="_blank">
+        <h5 class="font-weight-light mt-3 text-white">Beneficios</h5>
+      </a>
+      <a href="https://viajehole.com.br/#planos" target="_blank">
+        <h5 class="font-weight-light mt-3 text-white">Planos</h5>
+      </a>
+      <a href="https://viajehole.com.br/#fale-conosco" target="_blank">
+        <h5 class="font-weight-light mt-3 text-white">Fale Conosco</h5>
+      </a>
+    </v-col>
+
+
+    <v-col class="d-flex mr-5" align="center">
+      <div :class="smAndDown ? 'w-100 mt-5 ml-3' : 'w-50 pt-10'">
+        <v-img class="rounded-xl ml-3" src="/public/imgrodape.png" />
+      </div>
+
+      <div :class="smAndDown ? 'w-100' : 'w-50 mr-5'">
+        <a href="https://viajehole.com.br/dashboard" target="_blank">
+          <v-img class="rounded-xl ml-3" src="/public/imgrodape2.png" />
+        </a>
+      </div>
+    </v-col>
+  </v-row>
+
+  <v-footer align="center" class="d-flex flex-column bg-secondary w-100 pt-16 pb-8">
+    <div class="w-100">
+      <h3 class="font-weight-regular text-white text-sm-h6 text-md-h6" style="font-size: 8px;"><v-icon color="terciary" size="large" class="mr-2">mdi-map-marker</v-icon>SAUS, Quadra 3, Ed. Business Point Quinto andar / Sala 521 Asa Sul / Brasília / DF</h3>
+    </div>
+
+
+    <div class="w-100 mt-5">
+      <h3  class="font-weight-regular text-white text-sm-h6 text-md-h6" style="font-size: 15px;"><v-icon color="terciary" class="mr-2">mdi-whatsapp</v-icon>61 9 8552-1088</h3>
+    </div>
+  </v-footer>
+
+  <v-footer align="center" class="w-100 pt-8 pb-8" style="background-color: #470d5b;">
+    <div align="center" class="w-100">
+     <h4 class="text-white font-weight-regular text-sm-h6" style="font-size: 10px;">Todos os Direitos Reservados ® - 2022 - BOMTUR VIAGENS E TURISMO LTDA. - CNPJ 05.663.682/0001-36</h4>
+    </div>
+  </v-footer>
+</template>
+
+<style scoped>
+#beneficios {
+  scroll-margin-top: 50px;
+}
+
+#assistencia {
+  scroll-margin-top: 100px;
+}
+
+#telemedicina {
+  scroll-margin-top: 100px;
+}
+
+#descontos {
+  scroll-margin-top: 50px;
+}
+
+.degrade1 {
   background: linear-gradient(to left, #ff4f00, #ffffff);
   background-size: 300% 100%;
   background-position: 250% 100%;
@@ -690,6 +833,7 @@
 
 <script setup>
 import { useDisplay } from 'vuetify';
+import AppBar from './AppBar.vue'
 
 
 const { smAndDown } = useDisplay()
