@@ -778,24 +778,26 @@
         </a>
       </div>
     </v-col>
+
+    <v-footer align="center" class="d-flex flex-column bg-secondary pt-16 pb-8">
+      <div>
+        <h3 class="font-weight-regular text-white text-sm-h6 text-md-h6" style="font-size: 8px;"><v-icon color="terciary" size="large" class="mr-2">mdi-map-marker</v-icon>SAUS, Quadra 3, Ed. Business Point Quinto andar / Sala 521 Asa Sul / Brasília / DF</h3>
+      </div>
+  
+  
+      <div class="mt-5">
+        <h3  class="font-weight-regular text-white text-sm-h6 text-md-h6" style="font-size: 15px;"><v-icon color="terciary" class="mr-2">mdi-whatsapp</v-icon>61 9 8552-1088</h3>
+      </div>
+    </v-footer>
+  
+    <v-footer align="center" class="pt-8 pb-8" style="background-color: #470d5b;">
+      <div align="center">
+       <h4 class="text-white font-weight-regular text-sm-h6" style="font-size: 10px;">Todos os Direitos Reservados ® - 2022 - BOMTUR VIAGENS E TURISMO LTDA. - CNPJ 05.663.682/0001-36</h4>
+      </div>
+    </v-footer>
   </v-row>
 
-  <v-footer align="center" class="d-flex flex-column bg-secondary w-100 pt-16 pb-8">
-    <div class="w-100">
-      <h3 class="font-weight-regular text-white text-sm-h6 text-md-h6" style="font-size: 8px;"><v-icon color="terciary" size="large" class="mr-2">mdi-map-marker</v-icon>SAUS, Quadra 3, Ed. Business Point Quinto andar / Sala 521 Asa Sul / Brasília / DF</h3>
-    </div>
 
-
-    <div class="w-100 mt-5">
-      <h3  class="font-weight-regular text-white text-sm-h6 text-md-h6" style="font-size: 15px;"><v-icon color="terciary" class="mr-2">mdi-whatsapp</v-icon>61 9 8552-1088</h3>
-    </div>
-  </v-footer>
-
-  <v-footer align="center" class="w-100 pt-8 pb-8" style="background-color: #470d5b;">
-    <div align="center" class="w-100">
-     <h4 class="text-white font-weight-regular text-sm-h6" style="font-size: 10px;">Todos os Direitos Reservados ® - 2022 - BOMTUR VIAGENS E TURISMO LTDA. - CNPJ 05.663.682/0001-36</h4>
-    </div>
-  </v-footer>
 </template>
 
 <style scoped>
