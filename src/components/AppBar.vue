@@ -10,7 +10,7 @@
         <v-app-bar-title />
 
         <div :class="smAndDown ? 'pt-1' : ''">
-            <h6 class="text-quintenary font-weight-regular d-sm-none">Cadastro Gratuito</h6>
+            <h6 class="text-quintenary font-weight-regular d-sm-none pt-1">Cadastro Gratuito</h6>
             <h5 class="text-quintenary font-weight-regular d-sm-block d-none mr-2">Cadastro Gratuito</h5>
 
         </div>
