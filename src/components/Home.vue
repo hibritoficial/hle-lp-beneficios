@@ -238,7 +238,7 @@
   </div>
 
   <div id="descontos" align="center" :class="smAndDown ? 'pt-5 pb-4' : 'pt-16 mt-16 pb-16'">
-    <v-img cover src="/public/fundodesconto.png">
+    <v-img  src="/public/fundodesconto.png">
 
       <h3 class="fontinter text-terciary font-weight-bold d-sm-none pt-5 pb-5">Descontos na Rede de Parceiros</h3>
       <h2 class="fontinter text-terciary font-weight-bold d-sm-block d-none  text-md-h2"
@@ -752,7 +752,7 @@
       <a href="https://viajehole.com.br/#home" style="text-decoration: none;" target="_blank">
         <h5 class="font-weight-light mt-5 text-white">Home</h5>
       </a>
-      <a href="https://viajehole.com.br/#como-funciona"  tyle="text-decoration: none;" target="_blank">
+      <a href="https://viajehole.com.br/#como-funciona" style="text-decoration: none;" target="_blank">
         <h5 class="font-weight-light mt-3 text-white">Como Funciona?</h5>
       </a>
       <a href="https://viajehole.com.br/#beneficios" style="text-decoration: none;" target="_blank">
@@ -767,14 +767,14 @@
     </v-col>
 
 
-    <v-col class="d-flex" align="center">
-      <div :class="smAndDown ? 'w-100 mt-5 ml-3' : 'w-50 pt-10'">
-        <v-img class="rounded-xl ml-3" src="/public/imgrodape.png" />
+    <v-col class="d-flex pt-5" align="center">
+      <div :class="smAndDown ? 'w-100 pt-5' : 'w-50 pt-10'">
+        <v-img class="rounded-xl ml-3" src="/public/imgrodape.png" :class="smAndDown ? '' : 'w-50'" />
       </div>
 
-      <div :class="smAndDown ? 'w-100 pr-5' : 'w-50 pr-5'">
+      <div align="center" :class="smAndDown ? 'w-100' : 'w-50'">
         <a style="text-decoration: none;" href="https://viajehole.com.br/dashboard" target="_blank">
-          <v-img class="rounded-xl ml-3" src="/public/imgrodape2.png" />
+          <v-img class="rounded-xl ml-3" src="/public/imgrodape2.png" :class="smAndDown ? '' : 'w-50'" />
         </a>
       </div>
     </v-col>
