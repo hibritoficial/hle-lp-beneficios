@@ -170,14 +170,91 @@
           </div>
 
           <div>
-            <v-btn size="x-small" class="bg-terciary rounded-lg mt-2 d-sm-none">
-              <h6 class="fontinter">COMO UTILIZAR</h6>
-            </v-btn>
+            <v-dialog width="500">
+              <template v-slot:activator="{ props }">
+                <v-btn v-bind="props" text="COMO UTILIZAR" size="x-small" class="bg-terciary rounded-lg mt-2 d-sm-none">
+                </v-btn>
 
-            <v-btn size="large" class="bg-terciary rounded-lg mt-2 d-sm-block d-none"
-              :class="smAndDown ? 'w-50 mt-8' : 'mt-16 w-50'">
-              <h6 class="fontinter text-md-h6">COMO UTILIZAR</h6>
-            </v-btn>
+                <v-btn v-bind="props" text="COMO UTILIZAR" size="large"
+                  class="bg-terciary rounded-lg mt-2 d-sm-block d-none" :class="smAndDown ? 'w-50 mt-8' : 'mt-16 w-50'">
+                </v-btn>
+
+
+              </template>
+
+              <template v-slot:default="{ isActive }">
+                <v-card class="bg-terciary" align="center">
+                  <v-card-text>
+
+                    <h4 class="fontinter pb-2">PARA TER ACESSO AOS NOSSOS SERVIÇOS: </h4>
+
+
+                    <div class="d-flex justify-space-between mt-2">
+
+                      <div class="w-25 pl-2 pr-2 bg-terciary rounded-lg" style="border-width: 1px; border-color: white; border-style: solid;">
+                        <h2>01</h2>
+                        <p class="mt-1 font-weight-light">Baixe <br/>nosso App</p>
+                      </div>
+
+                      <div class="w-25 pl-2 pr-2  bg-secondary rounded-lg" style="border-width: 1px; border-color: white; border-style: solid;">
+                        <v-icon class="mt-1">mdi-apple</v-icon>
+                        <p class="mt-1 font-weight-light">Disponivel na <br/><span class="font-weight-bold">Apple Store</span></p>
+                      </div>
+
+                      <div class="w-25 pl-2 pr-2  bg-secondary rounded-lg" style="border-width: 1px; border-color: white; border-style: solid;">
+                        <v-icon class="mt-1">mdi-google-play</v-icon>
+                        <p class="mt-1 font-weight-light">Disponivel na <br/><span class="font-weight-bold">Google Play</span></p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex justify-space-between mt-2">
+
+                      <div class="w-25 pl-2 pr-2 bg-terciary rounded-lg" style="border-width: 1px; border-color: white; border-style: solid;">
+                        <h2>02</h2>
+                        <p class="mt-1 font-weight-light">Inicie a <br/>sessão</p>
+                      </div>
+
+                      <div class="w-25 pl-2 pr-2  bg-secondary rounded-lg" style="border-width: 1px; border-color: white; border-style: solid;">
+                        <v-icon class="mt-1">mdi-map-marker</v-icon>
+                        <p class="mt-1 font-weight-light">Disponivel na <br/><span class="font-weight-bold">Apple Store</span></p>
+                      </div>
+
+                      <div class="w-25 pl-2 pr-2  bg-secondary rounded-lg" style="border-width: 1px; border-color: white; border-style: solid;">
+                        <v-icon class="mt-1">mdi-account</v-icon>
+                        <p class="mt-1 font-weight-light">Disponivel na <br/><span class="font-weight-bold">Google Play</span></p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex justify-space-between mt-2">
+
+                      <div class="w-25 pl-2 pr-2 bg-terciary rounded-lg" style="border-width: 1px; border-color: white; border-style: solid;">
+                        <h2>03</h2>
+                        <p class="mt-1 font-weight-light">Solicita<br/>atendimento online</p>
+                      </div>
+
+                      <div class="w-25 pl-2 pr-2  bg-secondary rounded-lg" style="border-width: 1px; border-color: white; border-style: solid;">
+                        <v-icon class="mt-1">mdi-apple</v-icon>
+                        <p class="mt-1 font-weight-light">Disponivel na <br/><span class="font-weight-bold">Apple Store</span></p>
+                      </div>
+
+                      <div class="w-25 pl-2 pr-2  bg-secondary rounded-lg" style="border-width: 1px; border-color: white; border-style: solid;">
+                        <v-icon class="mt-1">mdi-google-play</v-icon>
+                        <p class="mt-1 font-weight-light">Disponivel na <br/><span class="font-weight-bold">Google Play</span></p>
+                      </div>
+                    </div>
+
+                  </v-card-text>
+
+                  <v-card-actions>
+                    <v-spacer></v-spacer>
+
+                    <v-btn class="bg-white" @click="isActive.value = false">
+                      <h5 class="text-terciary">VOLTAR</h5>
+                    </v-btn>
+                  </v-card-actions>
+                </v-card>
+              </template>
+            </v-dialog>
           </div>
         </div>
 
@@ -247,7 +324,6 @@
 
                   <v-btn v-bind="props" text="COMO UTILIZAR" size="large"
                     class="bg-terciary rounded-lg mt-2 d-sm-block d-none" :class="smAndDown ? 'w-50 mt-4' : 'mt-10 w-50'">
-                    <h6 class="fontinter text-md-h6">COMO UTILIZAR</h6>
                   </v-btn>
                 </template>
 
@@ -255,7 +331,7 @@
                   <v-card class="bg-terciary" align="center">
                     <v-card-text>
 
-                      <h2 class="fontinter pb-2">COMO UTILIZAR O SERVIÇO?</h2>
+                      <h3 class="fontinter pb-2">COMO UTILIZAR O SERVIÇO?</h3>
 
                       <p class="font-weight-light">O titular do plano Holé deve acessar o link customizado e inserir
                         alguns dados para iniciar a consulta virtual com o médico.</p>
@@ -264,13 +340,14 @@
                         <h5 class="text-terciary font-weight-bold">INICIAR CONSULTA</h5>
                       </v-btn>
 
-                      <h2 class="fontinter pt-10">CONDIÇÃO COMERCIAL</h2>
+                      <h3 class="fontinter pt-10">CONDIÇÃO COMERCIAL</h3>
 
                       <h4 class="font-weight-light mt-3">- Plano individual</h4>
                       <h4 class="font-weight-light">- Sem período de carência</h4>
                       <h4 class="font-weight-light">- Sem coparticipação</h4>
                       <h4 class="font-weight-light">- Limite de 4 (quatro) consultas por ano</h4>
-                      <h4 class="font-weight-light">- Estão excluídos pacientes de urgência e emergência, síndrome do abdômen agudo, portadores de
+                      <h4 class="font-weight-light">- Estão excluídos pacientes de urgência e emergência, síndrome do
+                        abdômen agudo, portadores de
                         doenças cardiovasculares ou neurológicas e pacientes pediátricos menores de 2 anos</h4>
                     </v-card-text>
 
@@ -945,7 +1022,8 @@
 
 .fontinter {
   font-family: "Inter", sans-serif;
-}</style>
+}
+</style>
 
 <script setup>
 import { useDisplay } from 'vuetify';
