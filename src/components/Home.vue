@@ -447,7 +447,7 @@
         </div>
 
         <div align="center" :class="smAndDown ? 'w-50 pt-5' : 'w-50'">
-          <v-img src="/public/vaidepromo.png" :class="smAndDown ? 'w-50 mt-1' : 'w-25 mt-16 pt-8'" />
+          <v-img src="/public/vaidepromo.png" :class="smAndDown ? 'w-50 mt-3' : 'w-25 mt-16 pt-8'" />
         </div>
       </div>
 
@@ -455,7 +455,7 @@
       <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-3 px-1' : 'px-16 pt-8'">
 
         <div align="center" :class="smAndDown ? 'w-50 pt-5' : 'w-50'">
-          <v-img src="/public/gipsyy.png" :class="smAndDown ? 'w-50 mt-2' : 'w-25 mt-16 pt-16'" />
+          <v-img src="/public/gipsyy.png" :class="smAndDown ? 'w-50 mt-3' : 'w-25 mt-16 pt-16'" />
         </div>
 
         <div class="degrade2 rounded-lg text-white"
