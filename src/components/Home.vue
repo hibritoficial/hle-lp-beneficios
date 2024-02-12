@@ -188,60 +188,84 @@
 
                     <h4 class="fontinter pb-2">PARA TER ACESSO AOS NOSSOS SERVIÇOS: </h4>
 
+                    <v-row>
+                      <v-col cols="12" class="d-flex justify-space-between mt-2">
+                        <div class="pl-2 pr-2 bg-terciary rounded-lg"
+                          style="border-width: 1px; border-color: white; border-style: solid; width: 150px;">
+                          <h2>01</h2>
+                          <p class="mt-1 font-weight-light">Baixe <br />nosso App</p>
+                        </div>
 
-                    <div class="d-flex justify-space-between mt-2">
+                        <div class="mx-1 pl-2 pr-2  bg-secondary rounded-lg"
+                          style="border-width: 1px; border-color: white; border-style: solid; width: 150px;">
+                          <a class="text-white" style="text-decoration: none;"
+                            href="https://apps.apple.com/es/app/universal-assistance/id1005237356" target="_blank">
+                            <v-icon class="mt-1">mdi-apple</v-icon>
+                            <p class="mt-1 font-weight-light">Disponivel na <br /><span class="font-weight-bold">Apple
+                                Store</span></p>
+                          </a>
+                        </div>
 
-                      <div class="w-25 pl-2 pr-2 bg-terciary rounded-lg" style="border-width: 1px; border-color: white; border-style: solid;">
-                        <h2>01</h2>
-                        <p class="mt-1 font-weight-light">Baixe <br/>nosso App</p>
-                      </div>
+                        <div class="pl-2 pr-2  bg-secondary rounded-lg"
+                          style="border-width: 1px; border-color: white; border-style: solid; width: 150px;">
+                          <a class="text-white" style="text-decoration: none;"
+                            href="https://play.google.com/store/apps/details?id=com.mobilenik.universalAssistance&pli=1"
+                            target="_blank">
+                            <v-icon class="mt-1">mdi-google-play</v-icon>
+                            <p class="mt-1 font-weight-light">Disponivel na <br /><span class="font-weight-bold">Google
+                                Play</span></p>
+                          </a>
+                        </div>
+                      </v-col>
 
-                      <div class="w-25 pl-2 pr-2  bg-secondary rounded-lg" style="border-width: 1px; border-color: white; border-style: solid;">
-                        <v-icon class="mt-1">mdi-apple</v-icon>
-                        <p class="mt-1 font-weight-light">Disponivel na <br/><span class="font-weight-bold">Apple Store</span></p>
-                      </div>
+                      <v-col cols="12" class="d-flex justify-space-between">
+                        <div class="pl-2 pr-2 bg-terciary rounded-lg"
+                          style="border-width: 1px; border-color: white; border-style: solid; width: 150px;">
+                          <h2>02</h2>
+                          <p class="mt-1 font-weight-light">Inicie <br />a sessão</p>
+                        </div>
 
-                      <div class="w-25 pl-2 pr-2  bg-secondary rounded-lg" style="border-width: 1px; border-color: white; border-style: solid;">
-                        <v-icon class="mt-1">mdi-google-play</v-icon>
-                        <p class="mt-1 font-weight-light">Disponivel na <br/><span class="font-weight-bold">Google Play</span></p>
-                      </div>
-                    </div>
+                        <div class="mx-1 pl-2 pr-2 bg-secondary  rounded-lg"
+                          style="border-width: 1px; border-color: white; border-style: solid; width: 150px;">
+                          <v-icon class="mt-1"> mdi-map-marker</v-icon>
+                          <p class="mt-1 font-weight-light">Ative <br /><span class="font-weight-bold">Sua
+                              Localização</span></p>
+                        </div>
 
-                    <div class="d-flex justify-space-between mt-2">
+                        <div class="pl-2 pr-2 bg-secondary rounded-lg"
+                          style="border-width: 1px; border-color: white; border-style: solid;  width: 150px;">
+                          <v-icon class="mt-1">mdi-account-circle</v-icon>
+                          <p class="mt-1 font-weight-light">Insira <br /><span class="font-weight-bold">Seu
+                              Documento</span></p>
+                        </div>
+                      </v-col>
 
-                      <div class="w-25 pl-2 pr-2 bg-terciary rounded-lg" style="border-width: 1px; border-color: white; border-style: solid;">
-                        <h2>02</h2>
-                        <p class="mt-1 font-weight-light">Inicie a <br/>sessão</p>
-                      </div>
+                      <v-col cols="12" class="d-flex justify-space-between">
+                        <div class="pl-2 pr-2 bg-terciary rounded-lg"
+                          style="border-width: 1px; border-color: white; border-style: solid; width: 150px;">
+                          <h2>03</h2>
+                          <p class="mt-1 font-weight-light">Solicita <br />Atendimento Online</p>
+                        </div>
 
-                      <div class="w-25 pl-2 pr-2  bg-secondary rounded-lg" style="border-width: 1px; border-color: white; border-style: solid;">
-                        <v-icon class="mt-1">mdi-map-marker</v-icon>
-                        <p class="mt-1 font-weight-light">Disponivel na <br/><span class="font-weight-bold">Apple Store</span></p>
-                      </div>
+                        <div class="mx-1 pl-2 pr-2 bg-secondary rounded-lg"
+                          style="border-width: 1px; border-color: white; border-style: solid; width: 150px;">
+                          <v-icon class="mt-1"> mdi-cellphone-message</v-icon>
+                          <p class="mt-1 font-weight-light">no App <br /><span class="font-weight-bold">Faça a
+                              Triagem</span></p>
+                        </div>
 
-                      <div class="w-25 pl-2 pr-2  bg-secondary rounded-lg" style="border-width: 1px; border-color: white; border-style: solid;">
-                        <v-icon class="mt-1">mdi-account</v-icon>
-                        <p class="mt-1 font-weight-light">Disponivel na <br/><span class="font-weight-bold">Google Play</span></p>
-                      </div>
-                    </div>
+                        <div class="pl-2 pr-2 bg-secondary rounded-lg"
+                          style="border-width: 1px; border-color: white; border-style: solid; width: 150px;">
+                          <v-icon class="mt-1">mdi-heart-plus</v-icon>
+                          <p class="mt-1 font-weight-light">Gerencie sua <br /><span
+                              class="font-weight-bold">Consulta</span></p>
+                        </div>
+                      </v-col>
 
-                    <div class="d-flex justify-space-between mt-2">
 
-                      <div class="w-25 pl-2 pr-2 bg-terciary rounded-lg" style="border-width: 1px; border-color: white; border-style: solid;">
-                        <h2>03</h2>
-                        <p class="mt-1 font-weight-light">Solicita<br/>atendimento online</p>
-                      </div>
 
-                      <div class="w-25 pl-2 pr-2  bg-secondary rounded-lg" style="border-width: 1px; border-color: white; border-style: solid;">
-                        <v-icon class="mt-1">mdi-apple</v-icon>
-                        <p class="mt-1 font-weight-light">Disponivel na <br/><span class="font-weight-bold">Apple Store</span></p>
-                      </div>
 
-                      <div class="w-25 pl-2 pr-2  bg-secondary rounded-lg" style="border-width: 1px; border-color: white; border-style: solid;">
-                        <v-icon class="mt-1">mdi-google-play</v-icon>
-                        <p class="mt-1 font-weight-light">Disponivel na <br/><span class="font-weight-bold">Google Play</span></p>
-                      </div>
-                    </div>
+                    </v-row>
 
                   </v-card-text>
 
