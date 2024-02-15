@@ -391,13 +391,13 @@
       </div>
 
       <div id="descontos" align="center" :class="smAndDown ? 'pt-5 pb-4' : 'pt-16 mt-16 pb-16'">
-        <v-img src="/public/fundodesconto.png">
+        <div class="bg-grey">
 
           <h3 class="fontinter text-terciary font-weight-bold d-sm-none pt-5 pb-5">Descontos na Rede de Parceiros</h3>
           <h2 class="fontinter text-terciary font-weight-bold d-sm-block d-none  text-md-h2"
             :class="smAndDown ? 'pt-10 pb-10 text-h4' : 'pt-16 mt-5 pb-16'">Descontos na Rede de Parceiros
           </h2>
-        </v-img>
+        </div>
       </div>
 
       <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-4 px-1' : 'px-16'">
@@ -693,7 +693,7 @@
 
       <div class="d-flex justify-space-between" :class="smAndDown ? 'pt-3 px-1' : 'px-16 pt-8'">
 
-        <div align="center" :class="smAndDown ? 'w-50 pt-5' : 'w-50'">
+        <div align="center" :class="smAndDown ? 'w-50 pt-10' : 'w-50 pt-16'">
           <v-img src="/public/airalo.png" :class="smAndDown ? 'w-50 mt-4' : 'w-25 mt-16 pt-16'" />
         </div>
 
@@ -709,6 +709,20 @@
               virtual)
             </p>
           </h6>
+
+
+
+          <p class="fontinter font-weight-light d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pr-5' : ''">
+            Airalo é a primeira e maior loja eSIM do mundo com planos para mais de 200 países/regiões. Com parcerias
+            locais e globais junto a empresas de telecomunicações, oferece a cobertura mais ampla, preços mais baixos e a
+            melhor qualidade da categoria para eSIMs globalmente.
+          </p>
+
+          <p class="fontinter font-weight-light d-sm-block d-none" style="font-size: 9px;"
+            :class="smAndDown ? 'pt-2 pr-5' : 'text-h6 pt-2'">Airalo é a primeira e maior loja eSIM do mundo com planos
+            para mais de 200 países/regiões. Com parcerias locais e globais junto a empresas de telecomunicações, oferece
+            a cobertura mais ampla, preços mais baixos e a melhor qualidade da categoria para eSIMsglobalmente.
+          </p>
 
           <p class="fontinter font-weight-light d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pl-3' : ''">
           <ul>
