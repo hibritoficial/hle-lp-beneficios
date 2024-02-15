@@ -391,7 +391,7 @@
       </div>
 
       <div id="descontos" align="center" :class="smAndDown ? 'pt-5 pb-4' : 'pt-16 mt-16 pb-16'">
-        <div class="bg-grey">
+        <div style="background-color: #470d5b;">
 
           <h3 class="fontinter text-terciary font-weight-bold d-sm-none pt-5 pb-5">Descontos na Rede de Parceiros</h3>
           <h2 class="fontinter text-terciary font-weight-bold d-sm-block d-none  text-md-h2"
