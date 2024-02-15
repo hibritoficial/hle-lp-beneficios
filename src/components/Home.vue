@@ -721,7 +721,7 @@
           <p class="fontinter font-weight-light d-sm-block d-none" style="font-size: 9px;"
             :class="smAndDown ? 'pt-2 pr-5' : 'text-h6 pt-2'">Airalo é a primeira e maior loja eSIM do mundo com planos
             para mais de 200 países/regiões. Com parcerias locais e globais junto a empresas de telecomunicações, oferece
-            a cobertura mais ampla, preços mais baixos e a melhor qualidade da categoria para eSIMsglobalmente.
+            a cobertura mais ampla, preços mais baixos e a melhor qualidade da categoria para eSIMs globalmente.
           </p>
 
           <p class="fontinter font-weight-light d-sm-none" style="font-size: 6px;" :class="smAndDown ? 'pt-2 pl-3' : ''">
